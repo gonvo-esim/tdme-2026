@@ -30,10 +30,42 @@ export default function Navigation() {
               Connectivity
             </Link>
 
-            {/* Transmission */}
-            <Link href="/data-transmission" className="hover:text-blue-400 transition px-3 py-2">
-              Transmission
-            </Link>
+            {/* Transmission Dropdown */}
+            <div className="relative group">
+              <button
+                onClick={() => toggleDropdown("transmission")}
+                className="hover:text-blue-400 transition px-3 py-2 flex items-center"
+              >
+                Transmission
+                <span className="ml-1">▼</span>
+              </button>
+              <div className="absolute left-0 mt-0 w-48 bg-gray-900 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <Link
+                  href="/transmission"
+                  className="block px-4 py-2 hover:bg-blue-600 first:rounded-t-md"
+                >
+                  Overview
+                </Link>
+                <Link
+                  href="/transmission/sdh-sonet"
+                  className="block px-4 py-2 hover:bg-blue-600"
+                >
+                  SDH-SONET
+                </Link>
+                <Link
+                  href="/transmission/mpls-tp"
+                  className="block px-4 py-2 hover:bg-blue-600"
+                >
+                  MPLS-TP
+                </Link>
+                <Link
+                  href="/transmission/carrier-ethernet"
+                  className="block px-4 py-2 hover:bg-blue-600 last:rounded-b-md"
+                >
+                  Carrier Ethernet
+                </Link>
+              </div>
+            </div>
 
             {/* Hospitality Dropdown */}
             <div className="relative group">
