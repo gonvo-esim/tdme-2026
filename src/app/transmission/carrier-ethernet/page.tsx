@@ -25,6 +25,30 @@ export default function CarrierEthernetPage() {
           </div>
         </section>
 
+        {/* Carrier Ethernet Images */}
+        <section className="max-w-6xl mx-auto py-16 px-6">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="rounded-lg shadow-lg overflow-hidden border border-amber-200 bg-white">
+              <Image
+                src="/images/transmission/am3440-discovery.webp"
+                alt="AM3440 Layer Discovery and Fault Management"
+                width={800}
+                height={400}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+            <div className="rounded-lg shadow-lg overflow-hidden border border-amber-200 bg-white">
+              <Image
+                src="/images/transmission/am3440-mac.webp"
+                alt="AM3440 Media Access Control"
+                width={800}
+                height={400}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Introduction */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">

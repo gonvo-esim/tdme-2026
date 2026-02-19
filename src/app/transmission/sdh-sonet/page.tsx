@@ -25,6 +25,19 @@ export default function SDHSONETPage() {
           </div>
         </section>
 
+        {/* SDH-SONET Image */}
+        <section className="max-w-6xl mx-auto py-16 px-6">
+          <div className="rounded-lg shadow-lg overflow-hidden border border-blue-200 bg-white">
+            <Image
+              src="/images/transmission/sdh_pic.webp"
+              alt="SDH-SONET Network Architecture"
+              width={800}
+              height={400}
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </section>
+
         {/* Introduction */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
@@ -275,7 +288,7 @@ export default function SDHSONETPage() {
           </div>
         </section>
 
-        {/* OAM Section */}
+        {/* Synchronization Distribution */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-lg shadow-lg p-8">
@@ -327,6 +340,19 @@ export default function SDHSONETPage() {
                 </li>
               </ul>
             </div>
+          </div>
+        </section>
+
+        {/* Traffic Engineering Algorithms Image */}
+        <section className="max-w-6xl mx-auto py-16 px-6">
+          <div className="rounded-lg shadow-lg overflow-hidden border border-blue-200 bg-white">
+            <Image
+              src="/images/transmission/traffic-engineering.webp"
+              alt="Traffic Engineering Algorithms"
+              width={800}
+              height={400}
+              className="w-full h-auto object-cover"
+            />
           </div>
         </section>
 
