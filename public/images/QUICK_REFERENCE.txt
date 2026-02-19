@@ -1,0 +1,151 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   TDME WEBSITE - IMAGE QUICK REFERENCE                    ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📁 FOLDER LOCATIONS
+════════════════════════════════════════════════════════════════════════════
+
+🔹 eSIM Page Images              → /public/images/esim/
+🔹 Industrial Page Images        → /public/images/industrial/
+🔹 Data Transmission Images      → /public/images/data-transmission/
+🔹 Network Monitoring Images     → /public/images/network-monitoring/
+🔹 Temperature Compliance Images → /public/images/temperature-compliance/
+🔹 Jacob Jensen Images           → /public/images/jacob-jensen/
+�� Bittel Images                 → /public/images/bittel/
+
+════════════════════════════════════════════════════════════════════════════
+
+📊 IMAGE SLOTS PER PAGE
+════════════════════════════════════════════════════════════════════════════
+
+1️⃣  ESIM PAGE
+    • 2 placeholder sections
+    • Total: 2 images needed
+
+2️⃣  INDUSTRIAL PAGE
+    • 1 placeholder section
+    • Total: 1 image needed
+
+3️⃣  DATA TRANSMISSION PAGE
+    • No placeholders (text-focused)
+    • Total: 0 images needed
+
+4️⃣  NETWORK MONITORING PAGE
+    • 2 placeholder sections
+    • Total: 2 images needed
+
+5️⃣  TEMPERATURE COMPLIANCE PAGE
+    • 2 placeholder sections + logo section
+    • Total: 3 images needed
+
+6️⃣  JACOB JENSEN PAGE
+    • 2 placeholder sections
+    • Total: 2 images needed
+
+7️⃣  BITTEL PAGE
+    • 2 placeholder sections
+    • Total: 2 images needed
+
+═══════════════════════════════════════════════════════════════════════════════
+TOTAL: 14 images for best results (13 required minimum)
+═══════════════════════════════════════════════════════════════════════════════
+
+════════════════════════════════════════════════════════════════════════════════
+
+⚙️  RECOMMENDED SIZES
+════════════════════════════════════════════════════════════════════════════════
+
+Hero/Full Width:        1920×1080px  (max 300KB)
+Product Images:         800×400px    (max 150KB)
+Square Images:          600×600px    (max 150KB)
+Logos/Icons:            200×200px    (max 50KB)
+
+Supported Formats: JPG, PNG, WebP, GIF
+
+════════════════════════════════════════════════════════════════════════════════
+
+✅ UPLOAD CHECKLIST
+════════════════════════════════════════════════════════════════════════════════
+
+□ Prepare images (gather/create)
+□ Resize to recommended dimensions
+□ Compress file size (<150KB each)
+□ Name files clearly (e.g., esim-product.jpg)
+□ Upload to correct /public/images/[page]/ folder
+□ Send filename list to developer
+□ Developer updates pages and tests
+□ Review and approve
+
+════════════════════════════════════════════════════════════════════════════════
+
+🔗 HOW IMAGES APPEAR IN CODE
+════════════════════════════════════════════════════════════════════════════════
+
+File Location: /public/images/esim/esim-product.jpg
+Code Access:   <img src="/images/esim/esim-product.jpg" />
+Web URL:       https://yourdomain.com/images/esim/esim-product.jpg
+
+════════════════════════════════════════════════════════════════════════════════
+
+💡 TIPS FOR BEST RESULTS
+════════════════════════════════════════════════════════════════════════════════
+
+✓ Use clear, descriptive filenames
+✓ Keep file sizes under 200KB (compression is your friend)
+✓ Match image aspect ratio to placeholder dimensions
+✓ Use high-quality originals for better appearance
+✓ JPG for photos, PNG for graphics/logos
+✓ Organize by page from the start
+✓ Keep a backup copy of originals
+
+════════════════════════════════════════════════════════════════════════════════
+
+📧 SENDING FILENAMES TO DEVELOPER
+════════════════════════════════════════════════════════════════════════════════
+
+Example Format:
+
+ESIM Page:
+  • esim-product.jpg
+  • world-coverage-map.jpg
+
+Industrial Page:
+  • power-station.jpg
+
+Network Monitoring Page:
+  • network-dashboard.jpg
+  • analytics-interface.jpg
+
+... (continue for other pages)
+
+════════════════════════════════════════════════════════════════════════════════
+
+❓ COMMON QUESTIONS
+════════════════════════════════════════════════════════════════════════════════
+
+Q: Can I use SVG files?
+A: Not currently, but JPG/PNG/WebP work great
+
+Q: What if an image is too large?
+A: Use TinyPNG.com to compress without quality loss
+
+Q: Can I update images later?
+A: Yes! Just upload a new file with the same name
+
+Q: Do I need to edit code to add images?
+A: No! Just upload files and provide filenames
+
+Q: What about mobile optimization?
+A: Images are responsive and work on all devices
+
+════════════════════════════════════════════════════════════════════════════════
+
+🚀 YOU'RE READY!
+════════════════════════════════════════════════════════════════════════════════
+
+Everything is set up and waiting for your images.
+When ready, upload and send filenames → Developer integrates → Done!
+
+Easy maintenance + centralized management = Perfect solution
+
+════════════════════════════════════════════════════════════════════════════════
