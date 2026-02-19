@@ -29,7 +29,7 @@ export default function MPLSTPPage() {
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="rounded-lg shadow-lg overflow-hidden border border-indigo-200 bg-white">
             <Image
-              src="/images/transmission/mpls.webp"
+              src="/images/data-transmission/mpls.webp"
               alt="MPLS-TP Architecture"
               width={800}
               height={400}

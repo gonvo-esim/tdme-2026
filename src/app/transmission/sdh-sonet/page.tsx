@@ -29,7 +29,7 @@ export default function SDHSONETPage() {
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="rounded-lg shadow-lg overflow-hidden border border-blue-200 bg-white">
             <Image
-              src="/images/transmission/sdh_pic.webp"
+              src="/images/data-transmission/sdh_pic.webp"
               alt="SDH-SONET Network Architecture"
               width={800}
               height={400}
@@ -347,7 +347,7 @@ export default function SDHSONETPage() {
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="rounded-lg shadow-lg overflow-hidden border border-blue-200 bg-white">
             <Image
-              src="/images/transmission/traffic-engineering.webp"
+              src="/images/data-transmission/Traffic Engineering algorithms.webp"
               alt="Traffic Engineering Algorithms"
               width={800}
               height={400}

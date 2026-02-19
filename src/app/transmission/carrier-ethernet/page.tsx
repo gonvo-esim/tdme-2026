@@ -30,7 +30,7 @@ export default function CarrierEthernetPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="rounded-lg shadow-lg overflow-hidden border border-amber-200 bg-white">
               <Image
-                src="/images/transmission/am3440-discovery.webp"
+                src="/images/data-transmission/AM3440 Layer Discovery-Fault Management.webp"
                 alt="AM3440 Layer Discovery and Fault Management"
                 width={800}
                 height={400}
@@ -39,7 +39,7 @@ export default function CarrierEthernetPage() {
             </div>
             <div className="rounded-lg shadow-lg overflow-hidden border border-amber-200 bg-white">
               <Image
-                src="/images/transmission/am3440-mac.webp"
+                src="/images/data-transmission/AM3440 Media Access Control.webp"
                 alt="AM3440 Media Access Control"
                 width={800}
                 height={400}
