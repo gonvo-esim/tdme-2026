@@ -70,87 +70,11 @@ export default function IndustrialPage() {
           </div>
         </section>
 
-        {/* Technology Stack */}
-        <section className="bg-white py-16 px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Technology & Solutions</h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="p-8 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-4 text-orange-600">Network Infrastructure</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>✓ TDM & SONET Networks</li>
-                  <li>✓ Carrier-grade switches 600Gbps</li>
-                  <li>✓ Industrial switches & media converters</li>
-                  <li>✓ Redundant connections</li>
-                  <li>✓ Data Centers & hosting</li>
-                </ul>
-              </div>
-              <div className="p-8 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-4 text-orange-600">Communications</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>✓ SCADA systems</li>
-                  <li>✓ Radio communication</li>
-                  <li>✓ STAR-LINK & RADIO</li>
-                  <li>✓ VSAT systems</li>
-                  <li>✓ Rugged equipment</li>
-                </ul>
-              </div>
-              <div className="p-8 bg-gray-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-4 text-orange-600">Management & Security</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>✓ Centralized network management</li>
-                  <li>✓ All communication protocols</li>
-                  <li>✓ Integration protocols</li>
-                  <li>✓ Power solutions</li>
-                  <li>✓ Secure encryption</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Benefits */}
-        <section className="bg-gray-100 py-16 px-6">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Key Benefits</h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="flex items-start">
-                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-orange-600">High Availability</h3>
-                  <p className="text-gray-700">99.99% uptime SLA for mission-critical operations. Redundant systems and automatic failover ensure continuous service.</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-orange-600">Secure Connectivity</h3>
-                  <p className="text-gray-700">End-to-end encryption and secure protocols protect sensitive operational data from unauthorized access.</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-orange-600">Remote Operations</h3>
-                  <p className="text-gray-700">Control and monitor equipment from anywhere. Real-time data and analytics for informed decision-making.</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2 text-orange-600">Scalable Infrastructure</h3>
-                  <p className="text-gray-700">Grow from small installations to large-scale operations without major infrastructure changes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Product Portfolio Section */}
         <section className="bg-white py-20 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-4 text-center">CTCU Product Solutions</h2>
-            <p className="text-center text-gray-600 mb-16 text-lg">Integrated industrial networking products from CTC Union</p>
+            <h2 className="text-4xl font-bold mb-4 text-center">Integrated Industrial Network Products</h2>
+            <p className="text-center text-gray-600 mb-16 text-lg">CTCU/CTC Union industrial networking solutions</p>
 
             {/* Media Converters Section */}
             <div className="mb-20">
@@ -250,7 +174,7 @@ export default function IndustrialPage() {
               </div>
             </div>
 
-            {/* Cellular Routers Section */}
+            {/* Industrial Cellular & Gateway Routers Section */}
             <div className="mb-20">
               <h3 className="text-3xl font-bold mb-8 text-orange-600 border-b-4 border-orange-600 pb-4">Industrial Cellular & Gateway Routers</h3>
               <div className="grid md:grid-cols-2 gap-12 items-start mb-8">
@@ -599,6 +523,247 @@ export default function IndustrialPage() {
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Gallery Section - Additional Product Images */}
+        <section className="bg-gray-50 py-20 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-12 text-center">Additional Industrial Solutions</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/4g_router-monitor-bus station.webp"
+                  alt="4G Router - Bus Station Monitoring"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">4G Router - Bus Station Monitoring</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/cctv_industrial.webp"
+                  alt="Industrial CCTV System"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Industrial CCTV System</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/certifications.webp"
+                  alt="Industry Certifications"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Industry Certifications</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/city_cctv.webp"
+                  alt="City CCTV Network"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">City CCTV Network</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/Clock_Synchronization.webp"
+                  alt="Clock Synchronization"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Clock Synchronization</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/Designed-for-Raill.webp"
+                  alt="Railway-Designed Solutions"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Railway-Designed Solutions</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/ETC application.webp"
+                  alt="ETC Application"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">ETC Application</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/frm220-ccf-application.webp"
+                  alt="FRM220-CCF Application"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">FRM220-CCF Contact Closure</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/iAccess VLAN & QoS Prioritized.webp"
+                  alt="iAccess VLAN & QoS"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">iAccess VLAN & QoS Prioritized</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/industrial poe switch.webp"
+                  alt="Industrial PoE Switch"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Industrial PoE Switch</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/industrial-synce-switch-applisation.webp"
+                  alt="Industrial SyncE Switch"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Industrial SyncE Switch</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/internet_provider_cpe.webp"
+                  alt="Internet Provider CPE"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">Internet Provider CPE</h3>
+                </div>
+              </div>
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                <Image
+                  src="/images/industrial/IP Backbone application.webp"
+                  alt="IP Backbone Application"
+                  width={400}
+                  height={250}
+                  className="w-full h-64 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-bold text-gray-800">IP Backbone Application</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Technology Stack */}
+        <section className="bg-white py-16 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Technology & Solutions</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="p-8 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 text-orange-600">Network Infrastructure</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>✓ TDM & SONET Networks</li>
+                  <li>✓ Carrier-grade switches 600Gbps</li>
+                  <li>✓ Industrial switches & media converters</li>
+                  <li>✓ Redundant connections</li>
+                  <li>✓ Data Centers & hosting</li>
+                </ul>
+              </div>
+              <div className="p-8 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 text-orange-600">Communications</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>✓ SCADA systems</li>
+                  <li>✓ Radio communication</li>
+                  <li>✓ STAR-LINK & RADIO</li>
+                  <li>✓ VSAT systems</li>
+                  <li>✓ Rugged equipment</li>
+                </ul>
+              </div>
+              <div className="p-8 bg-gray-50 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 text-orange-600">Management & Security</h3>
+                <ul className="space-y-2 text-gray-700">
+                  <li>✓ Centralized network management</li>
+                  <li>✓ All communication protocols</li>
+                  <li>✓ Integration protocols</li>
+                  <li>✓ Power solutions</li>
+                  <li>✓ Secure encryption</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Benefits */}
+        <section className="bg-gray-100 py-16 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Key Benefits</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="flex items-start">
+                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-orange-600">High Availability</h3>
+                  <p className="text-gray-700">99.99% uptime SLA for mission-critical operations. Redundant systems and automatic failover ensure continuous service.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-orange-600">Secure Connectivity</h3>
+                  <p className="text-gray-700">End-to-end encryption and secure protocols protect sensitive operational data from unauthorized access.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-orange-600">Remote Operations</h3>
+                  <p className="text-gray-700">Control and monitor equipment from anywhere. Real-time data and analytics for informed decision-making.</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <div className="text-orange-600 font-bold text-2xl mr-4">→</div>
+                <div>
+                  <h3 className="text-xl font-bold mb-2 text-orange-600">Scalable Infrastructure</h3>
+                  <p className="text-gray-700">Grow from small installations to large-scale operations without major infrastructure changes.</p>
                 </div>
               </div>
             </div>
