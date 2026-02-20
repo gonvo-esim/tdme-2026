@@ -1,5 +1,6 @@
 "use client";
 
+import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";

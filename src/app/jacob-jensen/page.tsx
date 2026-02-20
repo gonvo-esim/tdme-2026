@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Jacob Jensen Audio Solutions | TDME Enterprise Systems",
+  description: "Jacob Jensen professional audio and communication solutions for enterprises. Premium sound systems for hospitality and commercial applications.",
+  keywords: "Jacob Jensen, audio systems, professional sound, enterprise audio, hospitality audio",
+  openGraph: {
+    title: "TDME Jacob Jensen Solutions",
+    description: "Professional audio solutions for enterprise applications",
+    type: "website",
+    url: "https://tdme.net/jacob-jensen",
+  },
+};
 
 export default function JacobJensenPage() {
   return (

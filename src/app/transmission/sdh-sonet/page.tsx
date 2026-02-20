@@ -1,7 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "SDH-SONET Networks | TDME Synchronous Transmission Solutions",
+  description: "Synchronous Digital Hierarchy (SDH) and SONET transmission networks. High-speed, reliable optical networking for enterprise backbone infrastructure.",
+  keywords: "SDH, SONET, synchronous transmission, optical networks, carrier-grade, network backbone",
+  openGraph: {
+    title: "TDME SDH-SONET Solutions",
+    description: "Advanced SDH-SONET transmission networks",
+    type: "website",
+    url: "https://tdme.net/transmission/sdh-sonet",
+  },
+};
 
 export default function SDHSONETPage() {
   return (

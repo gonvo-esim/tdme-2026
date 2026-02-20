@@ -1,7 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Carrier Ethernet Networks | TDME Metropolitan Area Networks",
+  description: "Carrier Ethernet solutions for metropolitan area networks (MAN) and enterprise connectivity. Fast, reliable Ethernet-based transport for carriers and enterprises.",
+  keywords: "carrier ethernet, metropolitan networks, MAN, Ethernet transport, carrier solutions, network connectivity",
+  openGraph: {
+    title: "TDME Carrier Ethernet",
+    description: "Carrier Ethernet networking solutions",
+    type: "website",
+    url: "https://tdme.net/transmission/carrier-ethernet",
+  },
+};
 
 export default function CarrierEthernetPage() {
   return (

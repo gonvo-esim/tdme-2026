@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Industrial Connectivity Solutions | TDME Network Services",
+  description: "Enterprise-grade industrial connectivity for power stations, oil/gas fields, offshore platforms, and solar farms. Reliable networks for critical infrastructure worldwide.",
+  keywords: "industrial connectivity, power station networks, oil gas solutions, offshore platforms, critical infrastructure, industrial networks",
+  openGraph: {
+    title: "TDME Industrial Connectivity",
+    description: "Enterprise industrial connectivity for critical infrastructure",
+    type: "website",
+    url: "https://tdme.net/industrial",
+  },
+};
 
 export default function IndustrialPage() {
   return (

@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Network Monitoring & Management Solutions | Enterprise Systems",
+  description: "Real-time network monitoring, performance analytics, and system management for enterprise networks. Ensure uptime and optimal network performance worldwide.",
+  keywords: "network monitoring, network management, performance monitoring, network analytics, enterprise networks, uptime monitoring",
+  openGraph: {
+    title: "TDME Network Monitoring",
+    description: "Enterprise network monitoring and management solutions",
+    type: "website",
+    url: "https://tdme.net/network-monitoring",
+  },
+};
 
 export default function NetworkMonitoringPage() {
   return (

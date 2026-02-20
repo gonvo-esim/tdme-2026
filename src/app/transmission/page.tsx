@@ -1,7 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Transmission Networks | SDH, SONET, MPLS-TP & Carrier Ethernet",
+  description: "Advanced transmission network solutions including SDH-SONET, MPLS-TP, and Carrier Ethernet. Carrier-grade infrastructure for enterprises worldwide.",
+  keywords: "transmission networks, SDH, SONET, MPLS-TP, carrier ethernet, network infrastructure, carrier-grade",
+  openGraph: {
+    title: "TDME Transmission Networks",
+    description: "Advanced transmission network solutions",
+    type: "website",
+    url: "https://tdme.net/transmission",
+  },
+};
 
 export default function TransmissionPage() {
   return (

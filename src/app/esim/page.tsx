@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "eSIMGEN - Embedded SIM Solutions | IoT Connectivity Platform",
+  description: "eSIMGEN provides embedded SIM technology for IoT devices and mobile applications. Secure, scalable connectivity for enterprises worldwide with global coverage.",
+  keywords: "eSIM, embedded SIM, IoT connectivity, mobile solutions, global coverage, SIM technology",
+  openGraph: {
+    title: "TDME eSIMGEN Solutions",
+    description: "Embedded SIM technology for IoT and mobile applications",
+    type: "website",
+    url: "https://tdme.net/esim",
+  },
+};
 
 export default function eSIMPage() {
   return (

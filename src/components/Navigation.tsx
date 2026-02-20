@@ -123,8 +123,20 @@ export default function Navigation() {
               </button>
               <div className="absolute left-0 mt-0 w-48 bg-gray-900 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <Link
-                  href="/security"
+                  href="/services"
                   className="block px-4 py-2 hover:bg-blue-600 first:rounded-t-md"
+                >
+                  Services
+                </Link>
+                <Link
+                  href="/projects"
+                  className="block px-4 py-2 hover:bg-blue-600"
+                >
+                  Projects
+                </Link>
+                <Link
+                  href="/security"
+                  className="block px-4 py-2 hover:bg-blue-600"
                 >
                   Security
                 </Link>

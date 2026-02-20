@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Data Transmission Networks | TDME Enterprise Solutions",
+  description: "Network management systems, TDM networks, carrier-grade switches, and data centers. High-performance data transmission infrastructure for enterprises.",
+  keywords: "data transmission, network management, TDM networks, carrier-grade switches, data centers, enterprise networks",
+  openGraph: {
+    title: "TDME Data Transmission",
+    description: "Enterprise data transmission and network infrastructure",
+    type: "website",
+    url: "https://tdme.net/data-transmission",
+  },
+};
 
 export default function DataTransmissionPage() {
   return (

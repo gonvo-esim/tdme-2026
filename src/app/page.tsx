@@ -1,6 +1,20 @@
+import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
+import LogoScroller from "@/components/LogoScroller";
+
+export const metadata: Metadata = {
+  title: "TDME - Global Connectivity Solutions | IoT, GRMS, Smart Hotels",
+  description: "Enterprise-grade connectivity solutions for industrial, commercial, and hospitality sectors. GRMS smart hotels, IoT monitoring, eSIM, data transmission networks, and security systems.",
+  keywords: "global connectivity, IoT solutions, GRMS systems, smart hotel technology, industrial networks, data transmission, Middle East connectivity",
+  openGraph: {
+    title: "TDME - Global Connectivity Solutions",
+    description: "Enterprise-grade connectivity for industrial, commercial, and mobile applications worldwide",
+    type: "website",
+    url: "https://tdme.net",
+  },
+};
 
 export default function Home() {
   return (
@@ -107,6 +121,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Logo Scroller */}
+        <LogoScroller />
       </main>
       <Footer />
     </>

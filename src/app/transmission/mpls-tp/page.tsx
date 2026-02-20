@@ -1,7 +1,20 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "MPLS-TP Networks | TDME Multiprotocol Label Switching Solutions",
+  description: "MPLS-TP (Multiprotocol Label Switching - Transport Profile) networks for efficient, flexible packet transport. Optimized routing for enterprise networks.",
+  keywords: "MPLS-TP, multiprotocol label switching, packet transport, routing, network optimization, enterprise networks",
+  openGraph: {
+    title: "TDME MPLS-TP Solutions",
+    description: "Advanced MPLS-TP transport networks",
+    type: "website",
+    url: "https://tdme.net/transmission/mpls-tp",
+  },
+};
 
 export default function MPLSTPPage() {
   return (

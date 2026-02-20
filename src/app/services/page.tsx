@@ -1,5 +1,18 @@
+import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Professional Services | TDME Consulting, Design & Implementation",
+  description: "End-to-end consulting, design, sourcing, and turn-key connectivity solutions. TDME services for enterprise networks, industrial systems, and smart technologies worldwide.",
+  keywords: "consulting services, network design, implementation, turn-key solutions, system integration, enterprise connectivity",
+  openGraph: {
+    title: "TDME Professional Services",
+    description: "Consulting, design, sourcing, and turn-key connectivity solutions",
+    type: "website",
+    url: "https://tdme.net/services",
+  },
+};
 
 export default function ServicesPage() {
   return (
@@ -126,6 +139,17 @@ export default function ServicesPage() {
                 <p className="text-sm text-gray-700">Training, documentation, and ongoing support</p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Projects Link */}
+        <section className="bg-blue-50 py-16 px-6">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6">View Our Work</h2>
+            <p className="text-lg text-gray-700 mb-8">Explore our portfolio of successful projects and industry events from around the world</p>
+            <a href="/projects" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition">
+              View Projects & Events
+            </a>
           </div>
         </section>
 

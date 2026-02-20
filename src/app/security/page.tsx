@@ -1,5 +1,18 @@
+import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Security & Access Control Solutions | TDME Enterprise Security",
+  description: "Command & control centers, access control, surveillance systems, and perimeter security solutions for enterprises. Integrated security infrastructure and monitoring.",
+  keywords: "security systems, access control, surveillance, command control, enterprise security, perimeter security, monitoring",
+  openGraph: {
+    title: "TDME Security Solutions",
+    description: "Enterprise security and access control systems",
+    type: "website",
+    url: "https://tdme.net/security",
+  },
+};
 
 export default function SecurityPage() {
   return (

@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Industrial Applications | TDME Enterprise Solutions",
+  description: "Specialized industrial applications including fuel tanker monitoring, M2M dry contact monitoring, radio communication solutions, and metro CCTV integration.",
+  keywords: "industrial applications, fuel tanker monitoring, M2M monitoring, radio communication, CCTV integration, industrial solutions",
+  openGraph: {
+    title: "TDME Industrial Applications",
+    description: "Specialized industrial connectivity applications",
+    type: "website",
+    url: "https://tdme.net/industrial-applications",
+  },
+};
 
 export default function IndustrialApplicationsPage() {
   return (

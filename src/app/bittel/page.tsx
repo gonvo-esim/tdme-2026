@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Bittel Hotel Communication Systems | TDME Hospitality Solutions",
+  description: "Bittel premium telephone systems and smart devices for hotel guestrooms, bathrooms, and business centers. Advanced hospitality communication technology.",
+  keywords: "Bittel, hotel phones, hospitality systems, room communication, hotel technology, guest communication",
+  openGraph: {
+    title: "TDME Bittel Solutions",
+    description: "Premium hotel communication systems by Bittel",
+    type: "website",
+    url: "https://tdme.net/bittel",
+  },
+};
 
 export default function BittelPage() {
   return (

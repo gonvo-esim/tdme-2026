@@ -1,6 +1,19 @@
+import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "GRMS Smart Hotel Management System | Hotel Room Control & IoT",
+  description: "GRMS provides advanced smart hotel solutions with Bluetooth Mesh, occupancy detection, and integrated IoT platform for modern hospitality management and guest experience.",
+  keywords: "GRMS, smart hotel, room control, hotel IoT, hospitality technology, smart rooms, occupancy detection",
+  openGraph: {
+    title: "TDME GRMS Smart Hotel System",
+    description: "Advanced smart hotel management with IoT integration",
+    type: "website",
+    url: "https://tdme.net/grms",
+  },
+};
 
 export default function GRMSPage() {
   return (

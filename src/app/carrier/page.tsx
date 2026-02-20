@@ -1,5 +1,18 @@
+import { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+
+export const metadata: Metadata = {
+  title: "Carrier & Communication Solutions | TDME Enterprise Systems",
+  description: "PBX systems, telephone infrastructure, and communication solutions for enterprises and telecommunications carriers. Reliable communication platforms.",
+  keywords: "carrier solutions, PBX systems, telecommunications, enterprise communication, carrier-grade infrastructure",
+  openGraph: {
+    title: "TDME Carrier Solutions",
+    description: "Enterprise carrier and communication systems",
+    type: "website",
+    url: "https://tdme.net/carrier",
+  },
+};
 
 export default function CarrierPage() {
   return (
