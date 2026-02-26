@@ -132,6 +132,171 @@ export default function JacobJensenPage() {
           </div>
         </section>
 
+        {/* Hospitality References Image Carousel */}
+        <section className="bg-gray-900 py-16 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-12 text-center text-white">Hospitality References</h2>
+            <div className="overflow-hidden">
+              <div className="flex gap-8 overflow-x-auto pb-4 scroll-smooth" style={{ scrollBehavior: 'smooth' }}>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/fairmont-hotels.webp"
+                    alt="Fairmont Hotels"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/hilton.webp"
+                    alt="Hilton"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/hotel-africana.webp"
+                    alt="Hotel Africana"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/hyatt.webp"
+                    alt="Hyatt"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/ibis.webp"
+                    alt="Ibis"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/intercontinental.webp"
+                    alt="Intercontinental"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/jumeirah.webp"
+                    alt="Jumeirah"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/kempinski.webp"
+                    alt="Kempinski"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/marriott.webp"
+                    alt="Marriott"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/novotel.webp"
+                    alt="Novotel"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/pullman.webp"
+                    alt="Pullman"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/raffles.webp"
+                    alt="Raffles"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/ramada.webp"
+                    alt="Ramada"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/ritz-carlton.webp"
+                    alt="Ritz Carlton"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/shangarila.webp"
+                    alt="Shangri-La"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/sheraton.webp"
+                    alt="Sheraton"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+                <div className="flex-shrink-0 w-56 h-56 rounded-lg flex items-center justify-center shadow-lg border border-cyan-400 bg-gray-800">
+                  <Image
+                    src="/images/jacob-jensen/hotels/verde.webp"
+                    alt="Verde"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain hover:scale-125 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            </div>
+            <p className="text-center text-gray-400 text-sm mt-6">Scroll to see all hotel partners</p>
+          </div>
+        </section>
+
         {/* Product Image Section 2 */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <h2 className="text-3xl font-bold mb-8 text-center text-blue-800">Premium Features</h2>

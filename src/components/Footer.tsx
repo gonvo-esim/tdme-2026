@@ -95,6 +95,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/about" className="hover:text-blue-400 transition">
+                  About
+                </Link>
+              </li>
+              <li>
                 <Link href="/" className="hover:text-blue-400 transition">
                   Privacy Policy
                 </Link>

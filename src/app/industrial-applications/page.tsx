@@ -199,7 +199,7 @@ export default function IndustrialApplicationsPage() {
               </div>
               <div className="rounded-lg shadow-lg overflow-hidden border border-yellow-300 bg-white">
                 <Image
-                  src="/images/industrial/industrial-infrastructure.webp"
+                  src="/images/industrial/city_cctv.webp"
                   alt="Industrial Infrastructure Monitoring"
                   width={500}
                   height={350}
