@@ -158,7 +158,7 @@ export default function ContactPage() {
 
             {/* Quick Links */}
             <div className="bg-blue-50 rounded-lg p-8">
-              <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-gray-100 to-gray-50 py-3 px-4 rounded inline-block">Need Something Specific?</h3>
+              <h3 className="text-xl font-bold mb-4 bg-gradient-to-r from-gray-100 to-gray-50 py-3 px-4 rounded inline-block text-slate-900">Need Something Specific?</h3>
               <ul className="space-y-3">
                 <li>
                   <a href="/services" className="text-blue-600 hover:text-blue-800 font-bold">

@@ -54,7 +54,7 @@ export default function DataTransmissionPage() {
         {/* Core Solutions */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Our Solutions</h2>
+            <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Our Solutions</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-8 border-l-4 border-purple-600 bg-gray-50 rounded-lg">
                 <h3 className="text-2xl font-bold mb-4 text-purple-600">Hardware Infrastructure</h3>
@@ -80,7 +80,7 @@ export default function DataTransmissionPage() {
         {/* Key Features */}
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Why Choose Our Data Transmission Solutions</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Why Choose Our Data Transmission Solutions</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex items-start">
                 <div className="text-purple-600 text-3xl mr-4">✓</div>
@@ -131,7 +131,7 @@ export default function DataTransmissionPage() {
         {/* Use Cases */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Industry Applications</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Industry Applications</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="p-6 border border-gray-200 rounded-lg text-center">
                 <h3 className="font-bold mb-3">Financial Services</h3>

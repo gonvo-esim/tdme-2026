@@ -697,7 +697,7 @@ export default function IndustrialPage() {
         {/* Technology Stack */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Technology & Solutions</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Technology & Solutions</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 bg-gray-50 rounded-lg">
                 <h3 className="text-xl font-bold mb-4 text-orange-600">Network Infrastructure</h3>
@@ -736,7 +736,7 @@ export default function IndustrialPage() {
         {/* Benefits */}
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Key Benefits</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Key Benefits</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex items-start">
                 <div className="text-orange-600 font-bold text-2xl mr-4">→</div>

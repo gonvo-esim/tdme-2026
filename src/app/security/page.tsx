@@ -217,7 +217,7 @@ export default function SecurityPage() {
         {/* Solutions */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Integrated Security Solutions</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Integrated Security Solutions</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-8 bg-gray-50 rounded-lg border-l-4 border-red-700">
                 <h3 className="text-2xl font-bold mb-4 text-red-700">Access Control</h3>
@@ -265,7 +265,7 @@ export default function SecurityPage() {
         {/* Features */}
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Key Features</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Key Features</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="text-4xl text-red-700 mb-4">🔒</div>
@@ -304,7 +304,7 @@ export default function SecurityPage() {
         {/* Use Cases */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Industry Applications</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Industry Applications</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-8 border border-gray-200 rounded-lg">
                 <h3 className="text-xl font-bold mb-4 text-red-700">🏨 Hospitality & Hotels</h3>

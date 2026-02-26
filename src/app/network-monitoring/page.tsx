@@ -82,7 +82,7 @@ export default function NetworkMonitoringPage() {
         {/* Perfect For Organizations Using */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Perfect For Organizations Using</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Perfect For Organizations Using</h2>
             <div className="grid md:grid-cols-4 gap-6 mb-12">
               <div className="p-6 border border-gray-200 rounded-lg text-center hover:shadow-lg transition">
                 <p className="font-bold text-purple-700 mb-2">Corporate IT Teams</p>
@@ -107,7 +107,7 @@ export default function NetworkMonitoringPage() {
         {/* How It Works */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">How It Works</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">How It Works</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-lg border-l-4 border-purple-600">
                 <h3 className="text-xl font-bold mb-4 text-purple-700">1. Discover</h3>
@@ -146,7 +146,7 @@ export default function NetworkMonitoringPage() {
         {/* Why Choose */}
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Why Choose Our Network Monitoring</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Why Choose Our Network Monitoring</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex items-start bg-white p-6 rounded-lg shadow">
                 <div className="text-purple-600 text-3xl mr-4">⚡</div>

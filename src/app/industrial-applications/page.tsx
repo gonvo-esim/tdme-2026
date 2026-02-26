@@ -41,7 +41,7 @@ export default function IndustrialApplicationsPage() {
         {/* Key Applications */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Our Applications</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Our Applications</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="p-8 bg-yellow-50 rounded-lg border-l-4 border-yellow-600">
                 <h3 className="text-2xl font-bold mb-4 text-yellow-600">Fuel Tanker Monitoring</h3>
@@ -133,7 +133,7 @@ export default function IndustrialApplicationsPage() {
         {/* Benefits */}
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg">Benefits of TDME Industrial Solutions</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Benefits of TDME Industrial Solutions</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 bg-white rounded-lg hover:shadow-lg transition">
                 <h3 className="text-2xl font-bold mb-3 text-yellow-600">Reliability</h3>
@@ -166,7 +166,7 @@ export default function IndustrialApplicationsPage() {
         {/* Case Studies */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg">Industry Deployments</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Industry Deployments</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="p-6 border border-gray-200 rounded-lg">
                 <h3 className="font-bold mb-3 text-lg">Oil & Gas</h3>
