@@ -30,7 +30,7 @@ export default function ServicesPage() {
         {/* Overview */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
-            <h2 className="text-3xl font-bold mb-6">End-to-End Solution Delivery</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white bg-green-600 py-3 px-6 rounded-lg inline-block">End-to-End Solution Delivery</h2>
             <p className="text-lg text-gray-700 mb-8">
               TDME provides comprehensive professional services to ensure your connectivity solutions are perfectly tailored to your business needs. From initial consultation through deployment and ongoing support, we're with you every step of the way.
             </p>
@@ -145,7 +145,7 @@ export default function ServicesPage() {
         {/* Projects Link */}
         <section className="bg-blue-50 py-16 px-6">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">View Our Work</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white bg-green-600 py-3 px-6 rounded-lg inline-block">View Our Work</h2>
             <p className="text-lg text-gray-700 mb-8">Explore our portfolio of successful projects and industry events from around the world</p>
             <a href="/projects" className="inline-block bg-blue-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-blue-700 transition">
               View Projects & Events
@@ -156,7 +156,7 @@ export default function ServicesPage() {
         {/* Why Choose TDME */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Why Choose TDME Services</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center text-white bg-green-600 py-4 px-6 rounded-lg inline-block mx-auto block">Why Choose TDME Services</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 border border-gray-200 rounded-lg hover:shadow-lg transition">
                 <h3 className="text-xl font-bold mb-3 text-green-600">Experience</h3>

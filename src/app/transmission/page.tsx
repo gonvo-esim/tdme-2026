@@ -123,66 +123,66 @@ export default function TransmissionPage() {
         {/* Comparative Analysis */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
-            <h2 className="text-3xl font-bold mb-8 text-gray-800">Technology Comparison Matrix</h2>
+            <h2 className="text-3xl font-bold mb-8 text-white bg-blue-700 py-3 px-6 rounded-lg inline-block">Technology Comparison Matrix</h2>
             
             <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+              <table className="w-full text-sm text-black">
                 <thead>
                   <tr className="border-b-2 border-gray-300 bg-gray-100">
-                    <th className="text-left py-3 px-4 font-bold">Aspect</th>
-                    <th className="text-left py-3 px-4 font-bold">SDH/SONET</th>
-                    <th className="text-left py-3 px-4 font-bold">MPLS-TP</th>
-                    <th className="text-left py-3 px-4 font-bold">Carrier Ethernet</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">Aspect</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">SDH/SONET</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">MPLS-TP</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">Carrier Ethernet</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Layer</strong></td>
-                    <td className="py-3 px-4">Physical (Layer 1)</td>
-                    <td className="py-3 px-4">Layer 2.5</td>
-                    <td className="py-3 px-4">Layer 2</td>
+                    <td className="py-3 px-4 text-black"><strong>Layer</strong></td>
+                    <td className="py-3 px-4 text-black">Physical (Layer 1)</td>
+                    <td className="py-3 px-4 text-black">Layer 2.5</td>
+                    <td className="py-3 px-4 text-black">Layer 2</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="py-3 px-4"><strong>Synchronization</strong></td>
-                    <td className="py-3 px-4">Mandatory</td>
-                    <td className="py-3 px-4">Optional</td>
-                    <td className="py-3 px-4">Optional</td>
+                    <td className="py-3 px-4 text-black"><strong>Synchronization</strong></td>
+                    <td className="py-3 px-4 text-black">Mandatory</td>
+                    <td className="py-3 px-4 text-black">Optional</td>
+                    <td className="py-3 px-4 text-black">Optional</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Bandwidth Model</strong></td>
-                    <td className="py-3 px-4">Fixed timeslots</td>
-                    <td className="py-3 px-4">Label-based variable</td>
-                    <td className="py-3 px-4">Committed/Peak rates</td>
+                    <td className="py-3 px-4 text-black"><strong>Bandwidth Model</strong></td>
+                    <td className="py-3 px-4 text-black">Fixed timeslots</td>
+                    <td className="py-3 px-4 text-black">Label-based variable</td>
+                    <td className="py-3 px-4 text-black">Committed/Peak rates</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="py-3 px-4"><strong>Service Models</strong></td>
-                    <td className="py-3 px-4">Circuits & E-pipes</td>
-                    <td className="py-3 px-4">P2P, P2MP, MP2MP</td>
-                    <td className="py-3 px-4">E-Line, E-LAN, E-Tree</td>
+                    <td className="py-3 px-4 text-black"><strong>Service Models</strong></td>
+                    <td className="py-3 px-4 text-black">Circuits & E-pipes</td>
+                    <td className="py-3 px-4 text-black">P2P, P2MP, MP2MP</td>
+                    <td className="py-3 px-4 text-black">E-Line, E-LAN, E-Tree</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Protection</strong></td>
-                    <td className="py-3 px-4">MSP, SNCP, Ring</td>
-                    <td className="py-3 px-4">FRR, Path, Ring</td>
-                    <td className="py-3 px-4">RSTP, Link/Service redundancy</td>
+                    <td className="py-3 px-4 text-black"><strong>Protection</strong></td>
+                    <td className="py-3 px-4 text-black">MSP, SNCP, Ring</td>
+                    <td className="py-3 px-4 text-black">FRR, Path, Ring</td>
+                    <td className="py-3 px-4 text-black">RSTP, Link/Service redundancy</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="py-3 px-4"><strong>OAM Capabilities</strong></td>
-                    <td className="py-3 px-4">Comprehensive in-band</td>
-                    <td className="py-3 px-4">Comprehensive IETF standard</td>
-                    <td className="py-3 px-4">MEF/IEEE standard</td>
+                    <td className="py-3 px-4 text-black"><strong>OAM Capabilities</strong></td>
+                    <td className="py-3 px-4 text-black">Comprehensive in-band</td>
+                    <td className="py-3 px-4 text-black">Comprehensive IETF standard</td>
+                    <td className="py-3 px-4 text-black">MEF/IEEE standard</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Legacy Support</strong></td>
-                    <td className="py-3 px-4">Native TDM/ATM</td>
-                    <td className="py-3 px-4">Pseudowire transport</td>
-                    <td className="py-3 px-4">Transparent frame forwarding</td>
+                    <td className="py-3 px-4 text-black"><strong>Legacy Support</strong></td>
+                    <td className="py-3 px-4 text-black">Native TDM/ATM</td>
+                    <td className="py-3 px-4 text-black">Pseudowire transport</td>
+                    <td className="py-3 px-4 text-black">Transparent frame forwarding</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="py-3 px-4"><strong>Deployment Trend</strong></td>
-                    <td className="py-3 px-4">Mature/Legacy</td>
-                    <td className="py-3 px-4">Growing adoption</td>
-                    <td className="py-3 px-4">Dominant modern choice</td>
+                    <td className="py-3 px-4 text-black"><strong>Deployment Trend</strong></td>
+                    <td className="py-3 px-4 text-black">Mature/Legacy</td>
+                    <td className="py-3 px-4 text-black">Growing adoption</td>
+                    <td className="py-3 px-4 text-black">Dominant modern choice</td>
                   </tr>
                 </tbody>
               </table>

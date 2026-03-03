@@ -31,7 +31,7 @@ export default function IndustrialApplicationsPage() {
         {/* Overview */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
-            <h2 className="text-3xl font-bold mb-6">Proven Industrial Connectivity</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white bg-yellow-600 py-3 px-6 rounded-lg inline-block">Proven Industrial Connectivity</h2>
             <p className="text-lg text-gray-700 mb-8">
               TDME delivers proven, reliable connectivity solutions for a wide range of industrial applications. From fuel distribution to machine-to-machine monitoring, our solutions are deployed in demanding environments worldwide.
             </p>

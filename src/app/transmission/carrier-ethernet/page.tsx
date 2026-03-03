@@ -519,47 +519,47 @@ export default function CarrierEthernetPage() {
         {/* Comparison Matrix */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
-            <h2 className="text-3xl font-bold mb-8 text-gray-800">Technology Comparison</h2>
+            <h2 className="text-3xl font-bold mb-8 text-white bg-blue-700 py-3 px-6 rounded-lg inline-block">Technology Comparison</h2>
             
             <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+              <table className="w-full text-sm text-black">
                 <thead>
                   <tr className="border-b-2 border-amber-600 bg-amber-100">
-                    <th className="text-left py-3 px-4 font-bold">Characteristic</th>
-                    <th className="text-left py-3 px-4 font-bold">Carrier Ethernet</th>
-                    <th className="text-left py-3 px-4 font-bold">Best-Effort Internet</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">Characteristic</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">Carrier Ethernet</th>
+                    <th className="text-left py-3 px-4 font-bold text-black">Best-Effort Internet</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Bandwidth Guarantees</strong></td>
-                    <td className="py-3 px-4">Committed & Peak rates</td>
-                    <td className="py-3 px-4">Variable/Best-effort</td>
+                    <td className="py-3 px-4 text-black"><strong>Bandwidth Guarantees</strong></td>
+                    <td className="py-3 px-4 text-black">Committed & Peak rates</td>
+                    <td className="py-3 px-4 text-black">Variable/Best-effort</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="py-3 px-4"><strong>QoS Predictability</strong></td>
-                    <td className="py-3 px-4">Deterministic SLAs</td>
-                    <td className="py-3 px-4">No guarantees</td>
+                    <td className="py-3 px-4 text-black"><strong>QoS Predictability</strong></td>
+                    <td className="py-3 px-4 text-black">Deterministic SLAs</td>
+                    <td className="py-3 px-4 text-black">No guarantees</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Service Levels</strong></td>
-                    <td className="py-3 px-4">Contractual commitments</td>
-                    <td className="py-3 px-4">None</td>
+                    <td className="py-3 px-4 text-black"><strong>Service Levels</strong></td>
+                    <td className="py-3 px-4 text-black">Contractual commitments</td>
+                    <td className="py-3 px-4 text-black">None</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="py-3 px-4"><strong>Latency Control</strong></td>
-                    <td className="py-3 px-4">Bounded maximum</td>
-                    <td className="py-3 px-4">Unbounded variation</td>
+                    <td className="py-3 px-4 text-black"><strong>Latency Control</strong></td>
+                    <td className="py-3 px-4 text-black">Bounded maximum</td>
+                    <td className="py-3 px-4 text-black">Unbounded variation</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-3 px-4"><strong>Traffic Isolation</strong></td>
-                    <td className="py-3 px-4">Per-service VLAN/EVC</td>
-                    <td className="py-3 px-4">No isolation</td>
+                    <td className="py-3 px-4 text-black"><strong>Traffic Isolation</strong></td>
+                    <td className="py-3 px-4 text-black">Per-service VLAN/EVC</td>
+                    <td className="py-3 px-4 text-black">No isolation</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="py-3 px-4"><strong>Cost Model</strong></td>
-                    <td className="py-3 px-4">Premium for guarantee</td>
-                    <td className="py-3 px-4">Economy pricing</td>
+                    <td className="py-3 px-4 text-black"><strong>Cost Model</strong></td>
+                    <td className="py-3 px-4 text-black">Premium for guarantee</td>
+                    <td className="py-3 px-4 text-black">Economy pricing</td>
                   </tr>
                 </tbody>
               </table>

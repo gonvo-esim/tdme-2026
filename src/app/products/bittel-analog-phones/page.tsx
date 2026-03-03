@@ -14,12 +14,12 @@ const productImages: ProductImage[] = [
   {
     series: "Analog Phone Models",
     images: [
-      { name: "7711-C", src: "https://en.tdme.net/wp-content/uploads/2024/04/7711-C.webp" },
-      { name: "7712", src: "https://en.tdme.net/wp-content/uploads/2024/04/7712.webp" },
-      { name: "HA12TSD-6S", src: "https://en.tdme.net/wp-content/uploads/2024/04/HA12TSD-6S.webp" },
-      { name: "HA62TSD-10S-Black", src: "https://en.tdme.net/wp-content/uploads/2024/04/HA62TSD-10S-Black.webp" },
-      { name: "HA62TS-N-7V", src: "https://en.tdme.net/wp-content/uploads/2024/04/HA62TS-N-7V.webp" },
-      { name: "HWD62TSD-10S", src: "https://en.tdme.net/wp-content/uploads/2024/04/HWD62TSD-10S.webp" },
+      { name: "UNO Media 7712", src: "/images/bittel/UMMedia-7712-wireless.webp" },
+      { name: "Bathroom Phones", src: "/images/bittel/bathroom-phones.webp" },
+      { name: "MODA Series", src: "/images/bittel/moda-design.webp" },
+      { name: "Lobby Phones", src: "/images/bittel/lobbyphone-ht60-ht20.webp" },
+      { name: "Cordless Combo Phone", src: "/images/bittel/neo-62-series.webp" },
+      { name: "Basic Hotel Phone", src: "/images/bittel/ht12.webp" },
     ],
   },
 ];

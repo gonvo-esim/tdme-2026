@@ -22,7 +22,7 @@ export default function SecurityPage() {
         {/* Overview */}
         <section className="max-w-6xl mx-auto py-16 px-6">
           <div className="bg-white rounded-lg shadow-lg p-12">
-            <h2 className="text-3xl font-bold mb-6">Comprehensive Security Solutions</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white bg-red-700 py-3 px-6 rounded-lg inline-block">Comprehensive Security Solutions</h2>
             <p className="text-lg text-gray-700 mb-8">
               TDME provides integrated security and access control solutions powered by industry-leading Motorola Solutions technology. From Motorola DMR digital communications and Avigilon/Pelco surveillance cameras to advanced access control, we deliver complete visibility and control over who enters your facilities, when they access them, and what activities occur within your premises.
             </p>
@@ -104,7 +104,7 @@ export default function SecurityPage() {
         {/* Avigilon and Pelco Cameras */}
         <section className="bg-white py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center">Avigilon & Pelco Video Surveillance</h2>
+            <h2 className="text-3xl font-bold mb-12 text-center text-white bg-red-700 py-4 px-6 rounded-lg inline-block mx-auto block">Avigilon & Pelco Video Surveillance</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="p-8 bg-red-50 rounded-lg border-l-4 border-red-700">
                 <div className="mb-6 cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/security/12_mp_avigilon_multisensor.webp")}>

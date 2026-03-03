@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* Featured Products */}
         <section className="max-w-6xl mx-auto py-20 px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center">Our Solutions</h2>
+          <h2 className="text-4xl font-bold mb-12 text-center text-white bg-blue-600 py-4 px-6 rounded-lg inline-block mx-auto block">Our Solutions</h2>
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProductCard
               title="Smart Hotel Solutions"
@@ -71,10 +71,10 @@ export default function Home() {
         {/* Key Features */}
         <section className="bg-white py-20 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-4xl font-bold mb-12 text-center">Why Choose TDME</h2>
+            <h2 className="text-4xl font-bold mb-12 text-center text-white bg-blue-600 py-4 px-6 rounded-lg inline-block mx-auto block">Why Choose TDME</h2>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Industrial Applications</h3>
+                <h3 className="text-2xl font-bold mb-4 text-white bg-gradient-to-r from-orange-600 to-orange-700 py-2 px-4 rounded inline-block">Industrial Applications</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>✓ Fuel tanker monitoring & location tracking</li>
                   <li>✓ M2M dry contact monitoring</li>
@@ -84,7 +84,7 @@ export default function Home() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4">Commercial & Hospitality Applications</h3>
+                <h3 className="text-2xl font-bold mb-4 text-white bg-gradient-to-r from-teal-600 to-teal-700 py-2 px-4 rounded inline-block">Commercial & Hospitality Applications</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li>✓ PBX & telephone systems (Mitel & Grandstream)</li>
                   <li>✓ Hospitality phones (Bittel)</li>
