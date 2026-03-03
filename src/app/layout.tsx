@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TDME - Global Connectivity & IoT Solutions | Enterprise-Grade Networks",
-  description: "Enterprise-grade connectivity solutions for industrial, commercial, and mobile applications. GRMS smart hotels, IoT monitoring, eSIM, data transmission, and security systems worldwide.",
-  keywords: "connectivity solutions, IoT, GRMS, smart hotel systems, data transmission, industrial connectivity, eSIM, network monitoring, temperature compliance, Middle East",
+  title: "TDME - IoT & Connectivity Solutions | Middle East, East Africa | Enterprise Networks",
+  description: "Enterprise IoT connectivity for hotels, industrial, oil & gas in UAE, Saudi Arabia, Egypt, Kenya, South Africa. GRMS smart hotels, data transmission, security systems, industrial networks.",
+  keywords: "IoT solutions UAE, connectivity Saudi Arabia, smart hotel systems Egypt, industrial networks Kenya, GRMS systems Africa, data transmission Middle East, security systems, Motorola radio communications, enterprise connectivity",
   authors: [{ name: "TDME", url: "https://tdme.net" }],
   creator: "TDME",
   publisher: "TDME",
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://tdme.net",
     siteName: "TDME",
-    title: "TDME - Global Connectivity & IoT Solutions",
-    description: "Enterprise-grade connectivity solutions for industrial, commercial, and mobile applications worldwide.",
+    title: "TDME - IoT & Connectivity Solutions for Middle East & East Africa",
+    description: "Enterprise IoT solutions for hotels, industrial, and commercial applications across Middle East and East Africa.",
     images: [
       {
         url: "https://tdme.net/images/logo/tdme-logo.png",
         width: 1200,
         height: 630,
-        alt: "TDME Logo",
+        alt: "TDME IoT Connectivity Solutions",
       },
     ],
   },
@@ -54,14 +54,27 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@TDME",
     creator: "@TDME",
-    title: "TDME - Global Connectivity & IoT Solutions",
-    description: "Enterprise-grade connectivity solutions for industrial, commercial, and mobile applications.",
+    title: "TDME - IoT & Connectivity Solutions",
+    description: "Enterprise IoT solutions for Middle East and East Africa markets.",
     images: ["https://tdme.net/images/logo/tdme-logo.png"],
   },
   alternates: {
     canonical: "https://tdme.net",
+    languages: {
+      "en-US": "https://tdme.net",
+      "en-AE": "https://tdme.net/uae",
+      "en-SA": "https://tdme.net/saudi-arabia",
+      "en-EG": "https://tdme.net/egypt",
+      "en-KE": "https://tdme.net/kenya",
+      "en-ZA": "https://tdme.net/south-africa",
+    },
   },
   category: "Technology",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 5,
+  },
 };
 
 export default function RootLayout({
@@ -75,18 +88,60 @@ export default function RootLayout({
     name: "TDME",
     url: "https://tdme.net",
     logo: "https://tdme.net/images/logo/tdme-logo.png",
-    description: "Enterprise-grade connectivity solutions for industrial, commercial, and mobile applications worldwide.",
+    description: "Enterprise IoT and connectivity solutions for industrial, commercial, and hospitality sectors across Middle East and East Africa.",
     sameAs: [
       "https://www.linkedin.com/company/tdme",
       "https://twitter.com/TDME",
     ],
-    contactPoint: {
-      "@type": "ContactPoint",
-      contactType: "Customer Support",
-      email: "sales@tdme.net",
-      telephone: "+1-800-TDME-NET",
-      availableLanguage: ["en"],
-    },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "Customer Support",
+        email: "sales@tdme.net",
+        telephone: "+1-800-TDME-NET",
+        availableLanguage: ["en"],
+      }
+    ],
+    areaServed: [
+      {
+        "@type": "Country",
+        name: "United Arab Emirates"
+      },
+      {
+        "@type": "Country",
+        name: "Saudi Arabia"
+      },
+      {
+        "@type": "Country",
+        name: "Egypt"
+      },
+      {
+        "@type": "Country",
+        name: "Kenya"
+      },
+      {
+        "@type": "Country",
+        name: "South Africa"
+      },
+      {
+        "@type": "Country",
+        name: "Nigeria"
+      },
+      {
+        "@type": "Country",
+        name: "United States"
+      }
+    ],
+    knowsAbout: [
+      "IoT Solutions",
+      "Connectivity Networks",
+      "Smart Hotel Systems",
+      "Industrial Networks",
+      "Data Transmission",
+      "Security Systems",
+      "GRMS Systems",
+      "Mobile Radio Communications"
+    ],
     address: {
       "@type": "PostalAddress",
       addressCountry: "US",

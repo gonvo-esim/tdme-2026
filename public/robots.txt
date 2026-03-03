@@ -1,9 +1,19 @@
 User-agent: *
 Allow: /
+Allow: /uae
+Allow: /saudi-arabia
+Allow: /egypt
+Allow: /kenya
+Allow: /south-africa
 Disallow: /api/
 Disallow: /_next/
 
-Sitemap: https://tdme.net/sitemap.xml
+# Specific rules for high-traffic pages
+User-agent: Googlebot
+Allow: /
 
 # Crawl delay for bots
 Crawl-delay: 1
+
+Sitemap: https://tdme.net/sitemap.xml
+Sitemap: https://tdme.net/sitemap-regional.xml

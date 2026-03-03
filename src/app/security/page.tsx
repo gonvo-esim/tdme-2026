@@ -29,75 +29,72 @@ export default function SecurityPage() {
           </div>
         </section>
 
-        {/* Motorola DMR Systems */}
+        {/* Motorola Solutions - 4 Categories */}
         <section className="bg-gradient-to-br from-slate-900 to-slate-800 py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold mb-12 text-center text-red-400">Motorola MOTOTRBO Digital Mobile Radio (DMR)</h2>
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="md:col-span-1 flex flex-col items-center justify-center">
-                <div className="w-full h-64 relative bg-gray-100 rounded-lg border-2 border-red-400 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/bittel/business-phone.webp")}>
+            <h2 className="text-3xl font-bold mb-12 text-center text-red-400">Motorola MOTOTRBO Digital Mobile Radio (DMR) Solutions</h2>
+            <div className="grid md:grid-cols-4 gap-6">
+              {/* Hospitality */}
+              <div className="bg-slate-700 rounded-lg border border-red-400 overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="w-full h-56 relative bg-gray-100 overflow-hidden cursor-pointer" onClick={() => setSelectedImage("/images/security/motorola-hospitality.webp")}>
                   <Image
-                    src="/images/bittel/business-phone.webp"
-                    alt="Motorola MOTOTRBO Digital Radio"
+                    src="/images/security/motorola-hospitality.webp"
+                    alt="Motorola Hospitality Communications"
                     fill
-                    className="object-contain p-4"
-                    priority
+                    className="object-cover"
                   />
                 </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-4 text-red-300">🏨 Hospitality</h3>
+                  <p className="text-gray-300 text-sm">Instant seamless communication between security, front desk, housekeeping, and valet staff with discreet Bluetooth-enabled earpieces</p>
+                </div>
               </div>
-              <div className="md:col-span-2">
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="p-8 bg-slate-700 rounded-lg border border-red-400">
-                    <h3 className="text-2xl font-bold mb-6 text-red-300">🎙️ Hospitality Communications</h3>
-                    <ul className="space-y-3 text-gray-300">
-                      <li className="flex items-start">
-                        <span className="text-red-400 mr-3">✓</span>
-                        <span>Instant seamless communication between security, front desk, housekeeping, and valet staff</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-400 mr-3">✓</span>
-                        <span>Discreet Bluetooth-enabled earpieces for hands-free, professional communication</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-400 mr-3">✓</span>
-                        <span>Emergency panic buttons and instant lockdown notifications</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-400 mr-3">✓</span>
-                        <span>GPS tracking of security personnel for real-time dispatch and safety</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-red-400 mr-3">✓</span>
-                        <span>Mass notification system for property-wide alerts during emergencies</span>
-                      </li>
-                    </ul>
-                  </div>
 
-                  <div className="p-8 bg-slate-700 rounded-lg border border-orange-400">
-                    <h3 className="text-2xl font-bold mb-6 text-orange-300">🔐 Enterprise Security Features</h3>
-                    <ul className="space-y-3 text-gray-300">
-                      <li className="flex items-start">
-                        <span className="text-orange-400 mr-3">✓</span>
-                        <span>Encrypted channels for secure, confidential security communications</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-orange-400 mr-3">✓</span>
-                        <span>Integrated workflows with video analytics and access control systems</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-orange-400 mr-3">✓</span>
-                        <span>Data messaging and work ticket system for efficient task management</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-orange-400 mr-3">✓</span>
-                        <span>IP67-rated rugged radios designed for harsh environments</span>
-                      </li>
-                      <li className="flex items-start">
-                        <span className="text-orange-400 mr-3">✓</span>
-                        <span>Wide-area coverage with MOTOTRBO repeaters for sprawling properties</span>
-                      </li>
-                    </ul>
-                  </div>
+              {/* Oil & Gas */}
+              <div className="bg-slate-700 rounded-lg border border-yellow-600 overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="w-full h-56 relative bg-gray-100 overflow-hidden cursor-pointer" onClick={() => setSelectedImage("/images/security/mototrbo-oilngas.webp")}>
+                  <Image
+                    src="/images/security/mototrbo-oilngas.webp"
+                    alt="Oil and Gas Industrial Solutions"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-4 text-yellow-300">⛽ Oil & Gas Industrial</h3>
+                  <p className="text-gray-300 text-sm">Encrypted secure communications for harsh environments with IP67-rated rugged radios and intrinsically safe devices</p>
+                </div>
+              </div>
+
+              {/* Commercial Stores */}
+              <div className="bg-slate-700 rounded-lg border border-blue-400 overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="w-full h-56 relative bg-gray-100 overflow-hidden cursor-pointer" onClick={() => setSelectedImage("/images/security/motorola-warehouse.webp")}>
+                  <Image
+                    src="/images/security/motorola-warehouse.webp"
+                    alt="Commercial Stores Communications"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-4 text-blue-300">🏪 Commercial Stores</h3>
+                  <p className="text-gray-300 text-sm">Efficient staff coordination across warehouses and retail locations with real-time inventory and security communications</p>
+                </div>
+              </div>
+
+              {/* Ports & Citywide */}
+              <div className="bg-slate-700 rounded-lg border border-cyan-400 overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="w-full h-56 relative bg-gray-100 overflow-hidden cursor-pointer" onClick={() => setSelectedImage("/images/security/mototrbo-port.webp")}>
+                  <Image
+                    src="/images/security/mototrbo-port.webp"
+                    alt="Ports and Citywide Communications"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-4 text-cyan-300">🚢 Ports & Citywide</h3>
+                  <p className="text-gray-300 text-sm">Wide-area coverage with MOTOTRBO repeaters for sprawling port facilities and city-wide emergency response coordination</p>
                 </div>
               </div>
             </div>
@@ -110,10 +107,10 @@ export default function SecurityPage() {
             <h2 className="text-3xl font-bold mb-12 text-center">Avigilon & Pelco Video Surveillance</h2>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="p-8 bg-red-50 rounded-lg border-l-4 border-red-700">
-                <div className="mb-6 cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/industrial/cctv_industrial.webp")}>
+                <div className="mb-6 cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/security/12_mp_avigilon_multisensor.webp")}>
                   <div className="w-full h-48 relative bg-gray-100 rounded-lg border-2 border-red-600 overflow-hidden">
                     <Image
-                      src="/images/industrial/cctv_industrial.webp"
+                      src="/images/security/12_mp_avigilon_multisensor.webp"
                       alt="Avigilon Advanced Camera"
                       fill
                       className="object-contain p-4"
@@ -142,10 +139,10 @@ export default function SecurityPage() {
               </div>
 
               <div className="p-8 bg-blue-50 rounded-lg border-l-4 border-blue-700">
-                <div className="mb-6 cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/industrial/city_cctv.webp")}>
+                <div className="mb-6 cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/security/pelco-cam.webp")}>
                   <div className="w-full h-48 relative bg-gray-100 rounded-lg border-2 border-blue-600 overflow-hidden">
                     <Image
-                      src="/images/industrial/city_cctv.webp"
+                      src="/images/security/pelco-cam.webp"
                       alt="Pelco Pro Security Camera"
                       fill
                       className="object-contain p-4"
@@ -179,9 +176,9 @@ export default function SecurityPage() {
               <h3 className="text-2xl font-bold mb-6 text-center text-purple-300">🎛️ Motorola Command Center & Video Management</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="flex flex-col items-center justify-center">
-                <div className="w-full h-56 relative bg-gray-100 rounded-lg border-2 border-purple-400 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/industrial/cctv_industrial.webp")}>
+                <div className="w-full h-56 relative bg-gray-100 rounded-lg border-2 border-purple-400 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/security/motorola-command-center.webp")}>
                   <Image
-                    src="/images/industrial/cctv_industrial.webp"
+                    src="/images/security/motorola-command-center.webp"
                     alt="Video Management Command Center"
                     fill
                     className="object-cover"
@@ -262,7 +259,115 @@ export default function SecurityPage() {
           </div>
         </section>
 
-        {/* Features */}
+        {/* Product Specifications Table */}
+        <section className="bg-white py-16 px-6">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-100 to-gray-50 py-4 px-6 rounded-lg text-slate-900">Motorola Product Specifications</h2>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr className="bg-gradient-to-r from-red-700 to-red-900 text-white">
+                    <th className="border border-gray-300 px-8 py-6 text-left">Product</th>
+                    <th className="border border-gray-300 px-8 py-6 text-left">Description</th>
+                    <th className="border border-gray-300 px-8 py-6 text-center whitespace-nowrap min-w-max">Image</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-6 font-bold text-red-700">DM4000</td>
+                    <td className="border border-gray-300 px-8 py-6 text-gray-700">Advanced mobile radio for team communications with integrated displays and data messaging capabilities</td>
+                    <td className="border border-gray-300 px-8 py-6 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-dm4000.webp")} className="inline-flex items-center justify-center w-32 h-24 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-dm4000.webp"
+                          alt="DM4000"
+                          width={90}
+                          height={70}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-6 font-bold text-red-700">DP4000EX</td>
+                    <td className="border border-gray-300 px-8 py-6 text-gray-700">Intrinsically safe portable radio designed for hazardous environments including oil & gas and chemical facilities</td>
+                    <td className="border border-gray-300 px-8 py-6 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-dp4000ex.webp")} className="inline-flex items-center justify-center w-32 h-24 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-dp4000ex.webp"
+                          alt="DP4000EX"
+                          width={90}
+                          height={70}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-6 font-bold text-red-700">ION</td>
+                    <td className="border border-gray-300 px-8 py-6 text-gray-700">Ultra-compact professional radio with essential features for secure team communications in compact environments</td>
+                    <td className="border border-gray-300 px-8 py-6 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-ion.webp")} className="inline-flex items-center justify-center w-32 h-24 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-ion.webp"
+                          alt="ION"
+                          width={90}
+                          height={70}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-6 font-bold text-red-700">R7</td>
+                    <td className="border border-gray-300 px-8 py-6 text-gray-700">Dual-mode desktop radio combining MOTOTRBO and conventional modes for maximum coverage and flexibility</td>
+                    <td className="border border-gray-300 px-8 py-6 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-r7.webp")} className="inline-flex items-center justify-center w-32 h-24 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-r7.webp"
+                          alt="R7"
+                          width={90}
+                          height={70}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-8 font-bold text-red-700">Accessories</td>
+                    <td className="border border-gray-300 px-8 py-8 text-gray-700">Complete range of radio accessories including batteries, chargers, holsters, and mounting solutions for field operations</td>
+                    <td className="border border-gray-300 px-8 py-8 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-accessories.webp")} className="inline-flex items-center justify-center w-40 h-32 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-accessories.webp"
+                          alt="Accessories"
+                          width={110}
+                          height={90}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                  <tr className="hover:bg-gray-50 transition">
+                    <td className="border border-gray-300 px-8 py-8 font-bold text-red-700">Ear Pieces</td>
+                    <td className="border border-gray-300 px-8 py-8 text-gray-700">Premium audio accessories including Bluetooth earpieces, headsets, and microphones for hands-free discreet communications</td>
+                    <td className="border border-gray-300 px-8 py-8 text-center">
+                      <button onClick={() => setSelectedImage("/images/security/motorola-ear-pieces.webp")} className="inline-flex items-center justify-center w-40 h-32 bg-gray-100 rounded border border-gray-300 hover:shadow-md transition cursor-pointer">
+                        <Image
+                          src="/images/security/motorola-ear-pieces.webp"
+                          alt="Ear Pieces"
+                          width={110}
+                          height={90}
+                          className="object-contain"
+                        />
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
         <section className="bg-gray-100 py-16 px-6">
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Key Features</h2>

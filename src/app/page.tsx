@@ -5,12 +5,12 @@ import ProductCard from "@/components/ProductCard";
 import LogoScroller from "@/components/LogoScroller";
 
 export const metadata: Metadata = {
-  title: "TDME - Global Connectivity Solutions | IoT, GRMS, Smart Hotels",
-  description: "Enterprise-grade connectivity solutions for industrial, commercial, and hospitality sectors. GRMS smart hotels, IoT monitoring, eSIM, data transmission networks, and security systems.",
-  keywords: "global connectivity, IoT solutions, GRMS systems, smart hotel technology, industrial networks, data transmission, Middle East connectivity",
+  title: "IoT Connectivity & GRMS Smart Hotel Solutions | TDME Middle East",
+  description: "Enterprise IoT solutions for hotels, industrial IoT, and data transmission networks in Middle East and East Africa. GRMS smart hotel systems, industrial connectivity, Motorola radio solutions.",
+  keywords: "IoT connectivity Middle East, smart hotel systems UAE, industrial IoT Saudi Arabia, GRMS hotel technology Egypt, hotel management systems Kenya, IoT solutions South Africa, data transmission networks Africa, enterprise connectivity",
   openGraph: {
-    title: "TDME - Global Connectivity Solutions",
-    description: "Enterprise-grade connectivity for industrial, commercial, and mobile applications worldwide",
+    title: "TDME - IoT Connectivity for Middle East & East Africa",
+    description: "Enterprise IoT solutions for smart hotels, industrial networks, and secure data transmission across Middle East and East Africa.",
     type: "website",
     url: "https://tdme.net",
   },
