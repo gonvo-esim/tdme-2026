@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import React from "react";
+import { FaPlane, FaUmbrella, FaBriefcase, FaGlobeAmericas, FaGlobeEurope, FaGlobeAsia, FaIsland, FaGlobeAfrica } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "eSIMGEN - Embedded SIM Solutions | IoT Connectivity Platform",
@@ -95,15 +97,15 @@ export default function eSIMPage() {
             <h2 className="text-3xl font-bold mb-12 text-center text-teal-700">Perfect For Travelers & Adventurers</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-8 border-l-4 border-teal-500 bg-gradient-to-br from-teal-50 to-cyan-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-3 text-teal-700">✈️ Frequent Travelers</h3>
+                <h3 className="text-xl font-bold mb-3 text-teal-700">{React.createElement(FaPlane, { className: "inline mr-2" })}Frequent Travelers</h3>
                 <p className="text-gray-700">Stay connected across continents without expensive roaming charges. Switch networks automatically in every country.</p>
               </div>
               <div className="p-8 border-l-4 border-orange-400 bg-gradient-to-br from-orange-50 to-yellow-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-3 text-orange-700">🏖️ Holiday & Leisure</h3>
+                <h3 className="text-xl font-bold mb-3 text-orange-700">{React.createElement(FaUmbrella, { className: "inline mr-2" })}Holiday & Leisure</h3>
                 <p className="text-gray-700">Share your adventures instantly. Social media, messaging, navigation—all seamless wherever your journey takes you.</p>
               </div>
               <div className="p-8 border-l-4 border-cyan-400 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-lg">
-                <h3 className="text-xl font-bold mb-3 text-cyan-700">💼 Remote Workers</h3>
+                <h3 className="text-xl font-bold mb-3 text-cyan-700">{React.createElement(FaBriefcase, { className: "inline mr-2" })}Remote Workers</h3>
                 <p className="text-gray-700">Maintain reliable connectivity for work emails and video calls. Stay productive from coffee shops to mountain peaks.</p>
               </div>
             </div>
@@ -121,13 +123,13 @@ export default function eSIMPage() {
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <h3 className="font-bold text-teal-700 mb-4 text-lg">Coverage Regions</h3>
                 <div className="space-y-2 text-gray-700">
-                  <p>• 🌎 North & Central America</p>
-                  <p>• 🌎 South America</p>
-                  <p>• 🌍 Europe (all countries)</p>
-                  <p>• 🌏 Asia Pacific region</p>
-                  <p>• 🌍 Middle East</p>
-                  <p>• 🌍 Africa</p>
-                  <p>• 🏝️ Caribbean & Islands</p>
+                  <p>{React.createElement(FaGlobeAmericas, { className: "inline mr-2" })}North & Central America</p>
+                  <p>{React.createElement(FaGlobeAmericas, { className: "inline mr-2" })}South America</p>
+                  <p>{React.createElement(FaGlobeEurope, { className: "inline mr-2" })}Europe (all countries)</p>
+                  <p>{React.createElement(FaGlobeAsia, { className: "inline mr-2" })}Asia Pacific region</p>
+                  <p>{React.createElement(FaGlobeEurope, { className: "inline mr-2" })}Middle East</p>
+                  <p>{React.createElement(FaGlobeAfrica, { className: "inline mr-2" })}Africa</p>
+                  <p>{React.createElement(FaIsland, { className: "inline mr-2" })}Caribbean & Islands</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
