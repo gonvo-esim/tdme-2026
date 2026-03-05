@@ -5,6 +5,7 @@ import React from "react";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { FaThermometerHalf, FaTruck, FaTint, FaAppleAlt, FaSignal, FaWifi } from "react-icons/fa";
 
 export default function TemperatureCompliancePage() {
   const companies = [
@@ -345,7 +346,7 @@ function WhyMattersTabs() {
     {
       id: "pharma",
       label: "Pharmaceutical",
-      icon: "💊",
+      icon: FaThermometerHalf,
       title: "Pharma Safety: Precision Temperature Monitoring for Pharmaceuticals",
       description: "Different drugs. Different temperature requirements. Zero margin for error.",
       benefits: [
@@ -361,7 +362,7 @@ function WhyMattersTabs() {
     {
       id: "transporter",
       label: "Transporter",
-      icon: "🚚",
+      icon: FaTruck,
       title: "The Transporter: Real-Time Cold Chain Visibility, From Dock to Delivery",
       description: "Your truck is on the highway. Your customer is waiting. Instead of guessing or calling the driver, open the LoggFi dashboard.",
       benefits: [
@@ -377,7 +378,7 @@ function WhyMattersTabs() {
     {
       id: "blood",
       label: "Blood & Plasma",
-      icon: "🩸",
+      icon: FaTint,
       title: "Vein-to-Vein Safety: Protecting Life, Not Just Boxes",
       description: "Blood is not cargo. It is life. From the moment it leaves a donor's arm to the moment it enters a patient's vein, temperature is the difference between safe and wasted.",
       benefits: [
@@ -393,7 +394,7 @@ function WhyMattersTabs() {
     {
       id: "food",
       label: "Food & Beverage",
-      icon: "🍔",
+      icon: FaAppleAlt,
       title: "Freshness Guaranteed: Eliminate Delivery Blind Spots",
       description: "Food safety isn't just good business—it's the law. HACCP plans require documented temperature control. FSMA mandates proactive risk prevention.",
       benefits: [
@@ -432,7 +433,7 @@ function WhyMattersTabs() {
                   : "bg-slate-700 text-gray-300 hover:bg-slate-600"
               }`}
             >
-              <span className="text-xl">{tab.icon}</span>
+              {React.createElement(tab.icon, { className: "text-xl" })}
               {tab.label}
             </button>
           ))}
@@ -474,7 +475,7 @@ function WhyMattersTabs() {
               />
             ) : (
               <div className="text-center">
-                <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
+                <div className="text-8xl mb-4">{React.createElement(tabs[activeTab].icon, { className: "text-8xl" })}</div>
                 <p className="text-gray-200 font-semibold text-lg">{tabs[activeTab].label} Solution</p>
                 <p className="text-sm text-gray-400 mt-2">Industry-specific monitoring image</p>
               </div>
@@ -493,7 +494,7 @@ function ComplianceDevicesTabs() {
     {
       id: "gsm",
       label: "GSM Data Logger",
-      icon: "📡",
+      icon: FaSignal,
       title: "Built for the Journey",
       description: "Our GSM data logger combines precise temperature monitoring with location-based tracking, making it ideal for mobile assets. With unlimited cloud storage and instant SMS alerts, you're always in control.",
       features: [
@@ -514,7 +515,7 @@ function ComplianceDevicesTabs() {
     {
       id: "wifi",
       label: "WiFi Data Logger",
-      icon: "📶",
+      icon: FaWifi,
       title: "Master of the Warehouse",
       description: "The WiFi temperature data logger offers seamless connectivity for real-time temperature monitoring. Perfect for stationary setups like hospitals and warehouses.",
       features: [
@@ -558,7 +559,7 @@ function ComplianceDevicesTabs() {
                   : "bg-slate-700 text-gray-300 hover:bg-slate-600"
               }`}
             >
-              <span className="text-xl">{tab.icon}</span>
+              {React.createElement(tab.icon, { className: "text-xl" })}
               {tab.label}
             </button>
           ))}
@@ -610,7 +611,7 @@ function ComplianceDevicesTabs() {
               />
             ) : (
               <div className="text-center">
-                <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
+                <div className="text-8xl mb-4">{React.createElement(tabs[activeTab].icon, { className: "text-8xl" })}</div>
                 <p className="text-white font-semibold text-lg">{tabs[activeTab].label}</p>
               </div>
             )}
