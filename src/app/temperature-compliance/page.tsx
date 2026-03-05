@@ -354,61 +354,65 @@ function WhyMattersTabs() {
       id: "pharma",
       label: "Pharmaceutical",
       icon: "💊",
-      title: "Why This Matters to You: Pharmaceutical",
-      description: "Pharmaceutical products require strict temperature control. A single temperature excursion can compromise efficacy and patient safety.",
+      title: "Pharma Safety: Precision Temperature Monitoring for Pharmaceuticals",
+      description: "Different drugs. Different temperature requirements. Zero margin for error.",
       benefits: [
-        "Regulatory compliance documentation (FDA, WHO guidelines)",
-        "Real-time monitoring with instant alerts",
-        "Detailed audit trails for inspections",
-        "Protection against liability claims",
-        "Ensure product integrity from manufacturer to patient"
+        "Ultra-cold monitoring for mRNA Vaccines (-80°C to -20°C)",
+        "Real-time tracking for Insulin (+2°C to +8°C)",
+        "Continuous logging for Monoclonal Antibodies (+2°C to +8°C)",
+        "Deviation alarms for Plasma Products (-25°C or below)",
+        "Ambient monitoring for Oral Solids at controlled room temperature"
       ],
+      imageName: "pharma-temperature-logger.webp",
       imageColor: "from-rose-100 to-pink-100"
+    },
+    {
+      id: "transporter",
+      label: "Transporter",
+      icon: "🚚",
+      title: "The Transporter: Real-Time Cold Chain Visibility, From Dock to Delivery",
+      description: "Your truck is on the highway. Your customer is waiting. Instead of guessing or calling the driver, open the LoggFi dashboard.",
+      benefits: [
+        "Zero temperature excursions – Alerts arrive before product is at risk",
+        "Instant proof of compliance – Share temperature logs with customers at delivery",
+        "Driver peace of mind – They see the number. They know it's right",
+        "See the exact temperature inside the refrigerated compartment updated minute-by-minute",
+        "Upgrade with Display mount in cab showing current temperature in real numbers"
+      ],
+      imageName: "Transporter-temperature-monitoring.webp",
+      imageColor: "from-blue-100 to-cyan-100"
+    },
+    {
+      id: "blood",
+      label: "Blood & Plasma",
+      icon: "🩸",
+      title: "Vein-to-Vein Safety: Protecting Life, Not Just Boxes",
+      description: "Blood is not cargo. It is life. From the moment it leaves a donor's arm to the moment it enters a patient's vein, temperature is the difference between safe and wasted.",
+      benefits: [
+        "Automatic tracking from pickup at Donation Camp",
+        "Real-time alerts to blood bank during Transport",
+        "Proof of continuous cold chain at Hospital Receiving",
+        "Know instantly if a temperature deviation occurs – not hours later",
+        "Action can be taken mid-transport. Lives are protected. Waste is eliminated."
+      ],
+      imageName: "blood-bank-temperature-logger.webp",
+      imageColor: "from-red-100 to-rose-100"
     },
     {
       id: "food",
       label: "Food & Beverage",
       icon: "🍔",
-      title: "Why This Matters to You: Food & Beverage",
-      description: "Food spoilage affects both profit margins and consumer safety. LoggFi prevents waste and ensures quality.",
+      title: "Freshness Guaranteed: Eliminate Delivery Blind Spots",
+      description: "Food safety isn't just good business—it's the law. HACCP plans require documented temperature control. FSMA mandates proactive risk prevention.",
       benefits: [
-        "Reduce spoilage and product waste by 30-40%",
-        "Food safety compliance (HACCP, FSMA)",
-        "Real-time supply chain visibility",
-        "Consumer confidence with traceability",
-        "Minimize financial losses from damaged shipments"
+        "Continuous monitoring from pick-up to drop-off",
+        "Immediate alerts on any temperature deviation",
+        "Digital records ready for audits and inspections",
+        "Multiple temperature zones – Frozen, refrigerated, ambient",
+        "Alert at minute one when issues occur. Driver notified. Problem fixed. Product safe."
       ],
+      imageName: "food-temperature-monitoring.webp",
       imageColor: "from-green-100 to-emerald-100"
-    },
-    {
-      id: "blood",
-      label: "Blood & Medical",
-      icon: "🩸",
-      title: "Why This Matters to You: Blood & Medical",
-      description: "Blood products have limited shelf life and critical temperature requirements. Protect lives with precise monitoring.",
-      benefits: [
-        "Ensure blood product viability for transfusions",
-        "AABB and ISO compliance standards",
-        "Eliminate guesswork in product validity",
-        "Reduce inventory waste",
-        "Complete traceability for medical records"
-      ],
-      imageColor: "from-red-100 to-rose-100"
-    },
-    {
-      id: "lab",
-      label: "Laboratory",
-      icon: "🧬",
-      title: "Why This Matters to You: Laboratory Samples",
-      description: "Research integrity depends on proper sample preservation. Maintain scientific credibility with continuous monitoring.",
-      benefits: [
-        "Protect valuable research samples",
-        "ISO 17025 compliance for testing labs",
-        "Prevent costly research invalidation",
-        "Detailed documentation for publications",
-        "Ensure reproducibility and scientific integrity"
-      ],
-      imageColor: "from-purple-100 to-blue-100"
     }
   ];
 
@@ -467,12 +471,22 @@ function WhyMattersTabs() {
           </div>
 
           {/* Image Placeholder */}
-          <div className={`bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl shadow-lg p-12 min-h-96 flex items-center justify-center border border-slate-600`}>
-            <div className="text-center">
-              <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
-              <p className="text-gray-200 font-semibold text-lg">{tabs[activeTab].label} Solution</p>
-              <p className="text-sm text-gray-400 mt-2">Industry-specific monitoring image</p>
-            </div>
+          <div className={`bg-gradient-to-br ${tabs[activeTab].imageColor} rounded-xl shadow-lg p-12 min-h-96 flex items-center justify-center border border-slate-600`}>
+            {tabs[activeTab].imageName ? (
+              <Image
+                src={`/images/temperature-compliance/${tabs[activeTab].imageName}`}
+                alt={tabs[activeTab].label}
+                width={400}
+                height={400}
+                className="w-full h-auto object-contain"
+              />
+            ) : (
+              <div className="text-center">
+                <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
+                <p className="text-gray-200 font-semibold text-lg">{tabs[activeTab].label} Solution</p>
+                <p className="text-sm text-gray-400 mt-2">Industry-specific monitoring image</p>
+              </div>
+            )}
           </div>
         </div>
       </div>
