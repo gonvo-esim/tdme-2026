@@ -148,6 +148,9 @@ export default function TemperatureCompliancePage() {
           </div>
         </section>
 
+        {/* Compliance & Audit Devices Section - Tabbed Interface */}
+        <ComplianceDevicesTabs />
+
         {/* Why This Matters to You Section - Tabbed Interface */}
         <WhyMattersTabs />
 
@@ -485,6 +488,145 @@ function WhyMattersTabs() {
                 <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
                 <p className="text-gray-200 font-semibold text-lg">{tabs[activeTab].label} Solution</p>
                 <p className="text-sm text-gray-400 mt-2">Industry-specific monitoring image</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ComplianceDevicesTabs() {
+  const [activeTab, setActiveTab] = React.useState(0);
+
+  const tabs = [
+    {
+      id: "gsm",
+      label: "GSM Data Logger",
+      icon: "📡",
+      title: "Built for the Journey",
+      description: "Our GSM data logger combines precise temperature monitoring with location-based tracking, making it ideal for mobile assets. With unlimited cloud storage and instant SMS alerts, you're always in control.",
+      features: [
+        "Range: -80°C to +80°C",
+        "Location-Based Tracking",
+        "Alerts: LED, SMS, App, Email",
+        "Resolution: 0.01°C"
+      ],
+      connectivity: [
+        "Unlimited Cloud Storage",
+        "API Sharing Available",
+        "Export CSV/PDF Reports",
+        "No Software Installation"
+      ],
+      imageName: "loggfi-transparent.webp",
+      bgColor: "from-blue-500 to-cyan-500"
+    },
+    {
+      id: "wifi",
+      label: "WiFi Data Logger",
+      icon: "📶",
+      title: "Master of the Warehouse",
+      description: "The WiFi temperature data logger offers seamless connectivity for real-time temperature monitoring. Perfect for stationary setups like hospitals and warehouses.",
+      features: [
+        "Range: -80°C to +80°C",
+        "Unlimited Cloud Storage",
+        "Alerts: LED, App, Email",
+        "Resolution: 0.01°C"
+      ],
+      connectivity: [
+        "Adjustable Intervals",
+        "API Sharing Available",
+        "Export CSV/PDF Reports",
+        "Easy Installation"
+      ],
+      imageName: "wifi-data-logger-display.png",
+      bgColor: "from-violet-500 to-purple-500"
+    }
+  ];
+
+  return (
+    <section className="py-16 md:py-24 bg-gradient-to-b from-slate-800 to-slate-900">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4">
+            Compliance & Audit <span className="text-amber-400">Devices</span>
+          </h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            Choose the perfect temperature monitoring solution for your deployment
+          </p>
+        </div>
+
+        {/* Tabs Navigation */}
+        <div className="flex flex-wrap justify-center gap-3 mb-12">
+          {tabs.map((tab, index) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(index)}
+              className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 flex items-center gap-2 ${
+                activeTab === index
+                  ? "bg-amber-500 text-gray-900 shadow-lg"
+                  : "bg-slate-700 text-gray-300 hover:bg-slate-600"
+              }`}
+            >
+              <span className="text-xl">{tab.icon}</span>
+              {tab.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Tab Content */}
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          {/* Content */}
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-3xl font-bold text-gray-100 mb-4">{tabs[activeTab].title}</h3>
+              <p className="text-lg text-gray-300 mb-6">{tabs[activeTab].description}</p>
+            </div>
+
+            <div>
+              <h4 className="text-xl font-semibold text-amber-400 mb-4">Key Features</h4>
+              <ul className="space-y-2">
+                {tabs[activeTab].features.map((feature, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="text-amber-400 font-bold mt-1">●</span>
+                    <span className="text-gray-300">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="text-xl font-semibold text-amber-400 mb-4">Connectivity & Integration</h4>
+              <ul className="space-y-2">
+                {tabs[activeTab].connectivity.map((item, idx) => (
+                  <li key={idx} className="flex items-start gap-3">
+                    <span className="text-amber-400 font-bold mt-1">✓</span>
+                    <span className="text-gray-300">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <button className="mt-6 px-6 py-3 bg-amber-500 text-gray-900 rounded-lg font-semibold hover:bg-amber-600 transition-all">
+              Get More Info
+            </button>
+          </div>
+
+          {/* Image */}
+          <div className={`bg-gradient-to-br ${tabs[activeTab].bgColor} rounded-xl shadow-lg p-12 min-h-96 flex items-center justify-center border border-slate-600`}>
+            {tabs[activeTab].imageName ? (
+              <Image
+                src={`/images/temperature-compliance/${tabs[activeTab].imageName}`}
+                alt={tabs[activeTab].label}
+                width={400}
+                height={400}
+                className="w-full h-auto object-contain"
+              />
+            ) : (
+              <div className="text-center">
+                <div className="text-8xl mb-4">{tabs[activeTab].icon}</div>
+                <p className="text-white font-semibold text-lg">{tabs[activeTab].label}</p>
               </div>
             )}
           </div>
