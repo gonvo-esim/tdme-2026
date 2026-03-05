@@ -600,14 +600,15 @@ function ComplianceDevicesTabs() {
           </div>
 
           {/* Image */}
-          <div className={`bg-gradient-to-br ${tabs[activeTab].bgColor} rounded-xl shadow-lg p-12 min-h-96 flex items-center justify-center border border-slate-600`}>
+          <div className={`bg-gradient-to-br ${tabs[activeTab].bgColor} rounded-xl shadow-lg p-12 min-h-96 flex items-center justify-center border border-slate-600 relative`}>
             {tabs[activeTab].imageName ? (
               <Image
                 src={`/images/temperature-compliance/${tabs[activeTab].imageName}`}
                 alt={tabs[activeTab].label}
-                width={400}
-                height={400}
-                className="w-full h-auto object-contain"
+                width={0}
+                height={0}
+                sizes="100vw"
+                className="w-full h-auto max-w-sm object-contain"
               />
             ) : (
               <div className="text-center">
