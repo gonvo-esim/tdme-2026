@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import React from "react";
+import { FaBolt, FaWrench, FaChartLine, FaLink } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Network Monitoring & Management Solutions | Enterprise Systems",
@@ -149,28 +151,28 @@ export default function NetworkMonitoringPage() {
             <h2 className="text-3xl font-bold mb-12 text-center text-white bg-purple-600 py-4 px-6 rounded-lg inline-block mx-auto block">Why Choose Our Network Monitoring</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="flex items-start bg-white p-6 rounded-lg shadow">
-                <div className="text-purple-600 text-3xl mr-4">⚡</div>
+                <div className="text-purple-600 text-3xl mr-4">{React.createElement(FaBolt, { className: "inline" })}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-purple-600">Fast Deployment</h3>
                   <p className="text-gray-700">Full visibility in under one hour. Collectors are lightweight and deploy in minutes without complex infrastructure.</p>
                 </div>
               </div>
               <div className="flex items-start bg-white p-6 rounded-lg shadow">
-                <div className="text-purple-600 text-3xl mr-4">🔧</div>
+                <div className="text-purple-600 text-3xl mr-4">{React.createElement(FaWrench, { className: "inline" })}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-purple-600">Minimal Setup</h3>
                   <p className="text-gray-700">Most configuration happens automatically. Supports 15,000+ device types from 700+ vendors with vendor-neutral approach.</p>
                 </div>
               </div>
               <div className="flex items-start bg-white p-6 rounded-lg shadow">
-                <div className="text-purple-600 text-3xl mr-4">📈</div>
+                <div className="text-purple-600 text-3xl mr-4">{React.createElement(FaChartLine, { className: "inline" })}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-purple-600">Scalable</h3>
                   <p className="text-gray-700">Grow from single-site to multi-site operations effortlessly. Perfect for MSPs managing dozens of client networks.</p>
                 </div>
               </div>
               <div className="flex items-start bg-white p-6 rounded-lg shadow">
-                <div className="text-purple-600 text-3xl mr-4">🔗</div>
+                <div className="text-purple-600 text-3xl mr-4">{React.createElement(FaLink, { className: "inline" })}</div>
                 <div>
                   <h3 className="text-xl font-bold mb-2 text-purple-600">Built-in Integrations</h3>
                   <p className="text-gray-700">Connect with ConnectWise, ServiceNow, Microsoft Teams, Slack, and 40+ other tools for seamless workflows.</p>
