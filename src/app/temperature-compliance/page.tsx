@@ -49,21 +49,6 @@ export default function TemperatureCompliancePage() {
               <p className="text-xl sm:text-2xl text-gray-300 max-w-2xl text-balance font-light leading-relaxed">
                 Advanced <strong>GSM Data Logger</strong> and <strong>WiFi Data Logger</strong> solutions for precise cold chain monitoring. <strong className="text-amber-300 font-medium">Never guess about safety again.</strong>
               </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
-                <button className="inline-flex items-center justify-center gap-2 px-8 py-3 h-14 text-lg rounded-full font-medium bg-amber-500 text-gray-900 hover:bg-amber-600 transition-all shadow-lg hover:shadow-xl">
-                  Explore LoggFi
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                  </svg>
-                </button>
-                <button className="inline-flex items-center justify-center gap-2 px-8 py-3 h-14 text-lg rounded-full font-medium border-2 border-slate-600 text-gray-300 hover:bg-slate-700 transition-all">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                  </svg>
-                  Get Datasheet
-                </button>
-              </div>
             </div>
           </div>
 
@@ -611,10 +596,6 @@ function ComplianceDevicesTabs() {
                 ))}
               </ul>
             </div>
-
-            <button className="mt-6 px-6 py-3 bg-amber-500 text-gray-900 rounded-lg font-semibold hover:bg-amber-600 transition-all">
-              Get More Info
-            </button>
           </div>
 
           {/* Image */}
