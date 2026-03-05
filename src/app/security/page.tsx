@@ -4,6 +4,8 @@ import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useState } from "react";
+import React from "react";
+import { FaEye, FaMobileAlt, FaBell, FaChartBar, FaSync, FaClipboardList } from "react-icons/fa";
 
 export default function SecurityPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -373,32 +375,32 @@ export default function SecurityPage() {
             <h2 className="text-3xl font-bold mb-12 text-center bg-gradient-to-r from-gray-200 to-gray-100 py-4 px-6 rounded-lg text-slate-900">Key Features</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">🔒</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaEye, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Complete Visibility</h3>
                 <p className="text-gray-700">Know exactly who is in your facility at any given time with DMR communications, video surveillance, and detailed access logs</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">📱</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaMobileAlt, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Mobile Access</h3>
                 <p className="text-gray-700">Control and monitor your Motorola, Avigilon, and Pelco systems from anywhere using mobile applications</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">⚡</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaBell, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Real-time Alerts</h3>
                 <p className="text-gray-700">Instant notifications from DMR radios and video analytics for any security events or unauthorized access</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">📊</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaChartBar, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Advanced Analytics</h3>
                 <p className="text-gray-700">AI-powered Avigilon analysis to detect patterns and predict potential security threats</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">🔄</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaSync, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Seamless Integration</h3>
                 <p className="text-gray-700">Motorola DMR, Avigilon cameras, Pelco systems, and access control work together as one platform</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl text-red-700 mb-4">📋</div>
+                <div className="text-4xl text-red-700 mb-4">{React.createElement(FaClipboardList, { className: "inline" })}</div>
                 <h3 className="text-xl font-bold mb-2 text-red-700">Compliance</h3>
                 <p className="text-gray-700">Meet regulatory requirements with detailed audit trails and reporting from all integrated systems</p>
               </div>
