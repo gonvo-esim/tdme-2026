@@ -67,30 +67,11 @@ export default function TemperatureCompliancePage() {
             </div>
           </div>
 
-           {/* Hero Video Section */}
-           <div className="mt-10 md:mt-20 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-             <div className="rounded-2xl border border-slate-600 bg-slate-800 shadow-2xl overflow-hidden backdrop-blur-sm ring-1 ring-slate-600 relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
-               <div className="absolute inset-0 bg-gradient-to-tr from-amber-600/10 via-transparent to-transparent pointer-events-none z-10"></div>
-               <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
-                 <div className="text-center">
-                   <div className="text-6xl mb-4">📹</div>
-                   <p className="text-gray-200 font-semibold">LoggFi Temperature Monitor Demo</p>
-                   <p className="text-sm text-gray-400 mt-2">Video Demo - temperature-data-logger.webm</p>
-                 </div>
-               </div>
-              <video 
-                autoPlay 
-                loop 
-                muted 
-                playsInline 
-                className="absolute inset-0 w-full h-full object-cover opacity-90"
-                src="/images/temperature-compliance/temperature-data-logger.webm"
-              />
-            </div>
-          </div>
+           {/* Hero Video Section - MOVED TO DASHBOARD & INTERFACE SECTION */}
         </section>
 
-        {/* Solutions Section */}
+        {/* Why This Matters to You Section - Moved to below Hero Title */}
+        <WhyMattersTabs />
         <section className="py-12 md:py-20 relative overflow-hidden bg-slate-800">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
@@ -150,9 +131,6 @@ export default function TemperatureCompliancePage() {
 
         {/* Compliance & Audit Devices Section - Tabbed Interface */}
         <ComplianceDevicesTabs />
-
-        {/* Why This Matters to You Section - Tabbed Interface */}
-        <WhyMattersTabs />
 
         {/* Product Comparison Section */}
         <section className="bg-gradient-to-b from-slate-800 to-slate-900 py-16 px-6">
@@ -214,6 +192,30 @@ export default function TemperatureCompliancePage() {
         {/* Screenshots/Interface Section */}
         <section className="max-w-6xl mx-auto py-16 px-6 bg-slate-800">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-100">Dashboard & Interface</h2>
+          
+          {/* Video Section */}
+          <div className="mb-12">
+            <div className="rounded-2xl border border-slate-600 bg-slate-800 shadow-2xl overflow-hidden backdrop-blur-sm ring-1 ring-slate-600 relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+              <div className="absolute inset-0 bg-gradient-to-tr from-amber-600/10 via-transparent to-transparent pointer-events-none z-10"></div>
+              <div className="absolute inset-0 -z-10 bg-gradient-to-br from-slate-700 to-slate-800 flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">📹</div>
+                  <p className="text-gray-200 font-semibold">LoggFi Temperature Monitor Demo</p>
+                  <p className="text-sm text-gray-400 mt-2">Video Demo - temperature-data-logger.webm</p>
+                </div>
+              </div>
+              <video 
+                autoPlay 
+                loop 
+                muted 
+                playsInline 
+                className="absolute inset-0 w-full h-full object-cover opacity-90"
+                src="/images/temperature-compliance/temperature-data-logger.webm"
+              />
+            </div>
+          </div>
+
+          {/* Screenshots Grid */}
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg shadow-lg p-12 min-h-72 flex items-center justify-center border border-slate-600">
               <div className="text-center">
@@ -230,6 +232,8 @@ export default function TemperatureCompliancePage() {
               </div>
             </div>
           </div>
+
+          {/* End Screenshots Grid */}
         </section>
 
         {/* Industry Applications */}
