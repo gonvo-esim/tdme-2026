@@ -5,7 +5,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useState } from "react";
 import React from "react";
-import { FaEye, FaMobileAlt, FaBell, FaChartBar, FaSync, FaClipboardList } from "react-icons/fa";
+import { FaEye, FaMobileAlt, FaBell, FaChartBar, FaSync, FaClipboardList, FaBuilding, FaGasPump, FaShoppingCart, FaShip, FaCamera, FaVideo, FaServer } from "react-icons/fa";
 
 export default function SecurityPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -47,7 +47,7 @@ export default function SecurityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-4 text-red-300">🏨 Hospitality</h3>
+                  <h3 className="text-xl font-bold mb-4 text-red-300">{React.createElement(FaBuilding, { className: "inline mr-2" })}Hospitality</h3>
                   <p className="text-gray-300 text-sm">Instant seamless communication between security, front desk, housekeeping, and valet staff with discreet Bluetooth-enabled earpieces</p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function SecurityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-4 text-yellow-300">⛽ Oil & Gas Industrial</h3>
+                  <h3 className="text-xl font-bold mb-4 text-yellow-300">{React.createElement(FaGasPump, { className: "inline mr-2" })}Oil & Gas Industrial</h3>
                   <p className="text-gray-300 text-sm">Encrypted secure communications for harsh environments with IP67-rated rugged radios and intrinsically safe devices</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ export default function SecurityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-4 text-blue-300">🏪 Commercial Stores</h3>
+                  <h3 className="text-xl font-bold mb-4 text-blue-300">{React.createElement(FaShoppingCart, { className: "inline mr-2" })}Commercial Stores</h3>
                   <p className="text-gray-300 text-sm">Efficient staff coordination across warehouses and retail locations with real-time inventory and security communications</p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function SecurityPage() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-4 text-cyan-300">🚢 Ports & Citywide</h3>
+                  <h3 className="text-xl font-bold mb-4 text-cyan-300">{React.createElement(FaShip, { className: "inline mr-2" })}Ports & Citywide</h3>
                   <p className="text-gray-300 text-sm">Wide-area coverage with MOTOTRBO repeaters for sprawling port facilities and city-wide emergency response coordination</p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function SecurityPage() {
                     />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-6 text-red-700">📹 Avigilon Advanced Cameras</h3>
+                <h3 className="text-2xl font-bold mb-6 text-red-700">{React.createElement(FaVideo, { className: "inline mr-2" })}Avigilon Advanced Cameras</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-red-600 mr-3">★</span>
@@ -151,7 +151,7 @@ export default function SecurityPage() {
                     />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-6 text-blue-700">📷 Pelco Pro Security Cameras</h3>
+                <h3 className="text-2xl font-bold mb-6 text-blue-700">{React.createElement(FaCamera, { className: "inline mr-2" })}Pelco Pro Security Cameras</h3>
                 <ul className="space-y-3 text-gray-700">
                   <li className="flex items-start">
                     <span className="text-blue-600 mr-3">★</span>
@@ -175,7 +175,7 @@ export default function SecurityPage() {
 
             {/* Command Center Section */}
             <div className="mt-12 p-8 bg-gradient-to-r from-gray-900 to-gray-800 rounded-lg border-2 border-purple-600">
-              <h3 className="text-2xl font-bold mb-6 text-center text-purple-300">🎛️ Motorola Command Center & Video Management</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-purple-300">{React.createElement(FaServer, { className: "inline mr-2" })}Motorola Command Center & Video Management</h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="flex flex-col items-center justify-center">
                 <div className="w-full h-56 relative bg-gray-100 rounded-lg border-2 border-purple-400 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow" onClick={() => setSelectedImage("/images/security/motorola-command-center.webp")}>
