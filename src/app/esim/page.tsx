@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import React from "react";
-import { FaPlane, FaUmbrella, FaBriefcase, FaGlobeAmericas, FaGlobeEurope, FaGlobeAsia, FaIsland, FaGlobeAfrica } from "react-icons/fa";
+import { FaPlane, FaUmbrella, FaBriefcase, FaGlobeAmericas, FaGlobeEurope, FaGlobeAsia, FaWater, FaGlobeAfrica } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "eSIMGEN - Embedded SIM Solutions | IoT Connectivity Platform",
@@ -129,7 +129,7 @@ export default function eSIMPage() {
                   <p>{React.createElement(FaGlobeAsia, { className: "inline mr-2" })}Asia Pacific region</p>
                   <p>{React.createElement(FaGlobeEurope, { className: "inline mr-2" })}Middle East</p>
                   <p>{React.createElement(FaGlobeAfrica, { className: "inline mr-2" })}Africa</p>
-                  <p>{React.createElement(FaIsland, { className: "inline mr-2" })}Caribbean & Islands</p>
+                  <p>{React.createElement(FaWater, { className: "inline mr-2" })}Caribbean & Islands</p>
                 </div>
               </div>
               <div className="bg-white rounded-lg shadow-md overflow-hidden">
