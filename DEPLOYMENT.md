@@ -108,7 +108,48 @@ npm run dev
 
 ## 📝 Environment Variables
 
-No environment variables are required for this project. It works out of the box!
+### Email Configuration (REQUIRED for Contact Form)
+
+The contact form requires SMTP credentials from your email provider (Hostinger). Follow these steps:
+
+#### 1. Get SMTP Credentials from Hostinger
+
+1. Log in to [Hostinger Control Panel](https://hpanel.hostinger.com)
+2. Navigate to **Email** → **Email Accounts**
+3. Click on your email account (e.g., sales@tdme.net)
+4. Look for **SMTP Settings** or **Mailbox Access**
+5. You'll find:
+   - **SMTP Host**: `smtp.hostinger.com`
+   - **SMTP Port**: `587` (or `465` for SSL)
+   - **Username**: Your full email address (e.g., `sales@tdme.net`)
+   - **Password**: Your email password
+
+#### 2. Configure in Vercel
+
+1. Go to your Vercel project dashboard
+2. Click **Settings** → **Environment Variables**
+3. Add these three variables:
+
+| Key | Value |
+|-----|-------|
+| `SMTP_HOST` | `smtp.hostinger.com` |
+| `SMTP_PORT` | `587` |
+| `SMTP_USER` | `sales@tdme.net` (your actual email) |
+| `SMTP_PASSWORD` | Your email password |
+
+4. Make sure these are set for **Production** environment
+5. **Redeploy** your project after adding variables
+
+#### 3. Test the Contact Form
+
+1. Visit your live site
+2. Go to `/contact`
+3. Fill out and submit the form
+4. Check Vercel logs if it fails:
+   - Go to **Deployments** → latest deployment → **Logs** tab
+   - Look for "Email sending error" messages
+
+**Note**: Environment variables set in Vercel do NOT appear in `.env.local` locally. For local testing, keep using `.env.local`.
 
 ---
 

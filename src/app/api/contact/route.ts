@@ -12,6 +12,9 @@ function createTransporter() {
       user: process.env.SMTP_USER,
       pass: process.env.SMTP_PASSWORD,
     },
+    tls: {
+      rejectUnauthorized: false,
+    },
   });
 }
 
@@ -25,7 +28,7 @@ export async function POST(request: NextRequest) {
         pass: !!process.env.SMTP_PASSWORD,
       });
       return NextResponse.json(
-        { error: 'Failed to send email' },
+        { error: 'Email configuration not set on server' },
         { status: 500 }
       );
     }
@@ -56,7 +59,10 @@ ${message}
 
     const transporter = createTransporter();
     
-    await transporter.sendMail({
+    // Test connection first
+    await transporter.verify();
+    
+    const info = await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: 'sales@tdme.net',
       subject: emailSubject,
@@ -64,12 +70,16 @@ ${message}
       replyTo: email,
     });
 
+    console.log('Email sent successfully:', info.messageId);
+
     return NextResponse.json(
       { message: 'Email sent successfully' },
       { status: 200 }
     );
   } catch (error) {
-    console.error('Email sending error:', error);
+    console.error('Email sending error:', error instanceof Error ? error.message : error);
+    console.error('Full error:', error);
+    
     return NextResponse.json(
       { error: 'Failed to send email' },
       { status: 500 }
