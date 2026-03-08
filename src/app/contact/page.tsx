@@ -12,13 +12,14 @@ export default function ContactPage() {
     fullName: '',
     email: '',
     company: '',
+    application: '',
     subject: '',
     message: '',
   });
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -48,6 +49,7 @@ export default function ContactPage() {
           fullName: '',
           email: '',
           company: '',
+          application: '',
           subject: '',
           message: '',
         });
@@ -114,6 +116,23 @@ export default function ContactPage() {
                     placeholder="Company name"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
                   />
+                </div>
+                <div>
+                  <label className="block text-gray-700 font-bold mb-2">Application <span className="text-red-500">*</span></label>
+                  <select
+                    name="application"
+                    value={formData.application}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                    required
+                  >
+                    <option value="">Select an application</option>
+                    <option value="Hospitality Phones">Hospitality Phones</option>
+                    <option value="Industrial Applications">Industrial Applications</option>
+                    <option value="Network Monitoring">Network Monitoring</option>
+                    <option value="Cold Chain Assurance">Cold Chain Assurance</option>
+                    <option value="Security Systems">Security Systems</option>
+                  </select>
                 </div>
                 <div>
                   <label className="block text-gray-700 font-bold mb-2">Subject</label>

@@ -363,8 +363,8 @@ function WhyMattersTabs() {
       id: "transporter",
       label: "Transporter",
       icon: FaTruck,
-      title: "The Transporter: Real-Time Cold Chain Visibility, From Dock to Delivery",
-      description: "Your truck is on the highway. Your customer is waiting. Instead of guessing or calling the driver, open the LoggFi dashboard.",
+      title: "The Transporter: Eliminate Delivery Blind Spots",
+      description: "A freezer malfunction for just 30 minutes can ruin ice cream or destroy vaccines. LoggFi gives you real-time alerts so you can fix problems before the load is lost—protecting your brand and preventing costly spoilage claims.",
       benefits: [
         "Zero temperature excursions – Alerts arrive before product is at risk",
         "Instant proof of compliance – Share temperature logs with customers at delivery",
@@ -380,7 +380,7 @@ function WhyMattersTabs() {
       label: "Blood & Plasma",
       icon: FaTint,
       title: "Vein-to-Vein Safety: Protecting Life, Not Just Boxes",
-      description: "Blood is not cargo. It is life. From the moment it leaves a donor's arm to the moment it enters a patient's vein, temperature is the difference between safe and wasted.",
+      description: "From the donation camp to the hospital, LoggFi tracks every degree. If a transport box is stuck in traffic, the blood bank manager is alerted instantly on deviation, enabling action before the blood is compromised.",
       benefits: [
         "Automatic tracking from pickup at Donation Camp",
         "Real-time alerts to blood bank during Transport",
